@@ -1,0 +1,31 @@
+{
+  "ID": "c_fp_ScorpsNest_2",
+  "RandomSpawns": {
+    "Enable": true
+  },
+  "HotDropProtection": {
+    "Enable": true
+  },
+  "AdditionalLances": {
+    "Enable": true,
+    "EnemyLanceCount": 1,
+    "EnemyLances": ["lancedef_vehicle_scorpion_lvl_2"],
+    "AllyLanceCount": 0,
+    "AllyLances": []
+  },
+  "ExtendedLances": {
+    "Enable": true,
+    "EnemyLanceSize": 4,
+    "AllyLanceSize": 4
+  },
+  "ExtendedBoundaries": {
+    "Enable": true,
+    "IncreaseBoundarySizeByPercentage": 1.0
+  },
+  "DynamicWithdraw": {
+    "Enable": false
+  },
+  "AdditionalPlayerMechs": {
+    "Enable": true
+  }
+}

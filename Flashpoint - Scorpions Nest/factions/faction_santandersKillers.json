@@ -1,0 +1,51 @@
+{
+    "ID" : "faction_santandersKillers",
+    "Name" : "santandersKillers",
+    "ShortName" : "Santander's Killers",
+    "Description" : "Santander's Killers were a pirate band based on the periphery world of Santander V, also known as Santander's World. Their repeated raids earned the special enmity of House Kurita.",
+    "Demonym" : "Killers",
+    "Government" : "",
+    "Allies" :  [
+        "AuriganPirates"
+                ],
+    "Enemies" : [
+		"Liao",
+		"Davion",
+		"Steiner",
+		"Marik",
+		"Kurita",
+        "AuriganRestoration",
+        "AuriganDirectorate"
+    ],
+	"Presence": 0.1,
+    "ReputationStatements" : [
+        ""
+    ],
+    "MissionSuccessStatements" : [ 
+		""
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		""
+    ],
+	"BadFaithFailureStatements" : [ 
+		""
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_helmarV",
+    "DefaultRepresentativeCastDefId" : "castDef_helmarV",
+    "DataManager" : null,
+    "factionID" : "santandersKillers",
+  	"icon" : "uixTxrIcon_santandersKillers",
+    "heraldryDefId" : "heraldrydef_santandersKillers",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

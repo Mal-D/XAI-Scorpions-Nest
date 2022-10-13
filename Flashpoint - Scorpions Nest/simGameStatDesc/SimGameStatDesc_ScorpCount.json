@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Id" : "SimGameStatDesc_ScorpCount",
+        "Name" : "ScorpCount",
+        "Details" : "The number of Scorpion Mission Completed",
+        "Icon" : null
+    },
+    "setResult" : "You have now completed {RES_VALUE.ToCommaSeparatedString} Scorpion Missions.",
+    "positiveResult" : "Add another {RES_VALUE.ToCommaSeparatedString} Scorpion mission to your count.",
+    "negativeResult" : "",
+    "temporalSetResult" : "",
+    "temporalPositiveResult" : "",
+    "temporalNegativeResult" : "",
+    "infinitiveSetResult" : "",
+    "infinitivePositiveResult" : "+{RES_VALUE.ToCommaSeparatedString} Scorpion Mission.",
+    "infinitiveNegativeResult" : ""
+}
+

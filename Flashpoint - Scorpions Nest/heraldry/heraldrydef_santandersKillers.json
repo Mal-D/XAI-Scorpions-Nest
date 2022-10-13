@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_santandersKillers",
+        "Name" : "Santanders Killers",
+        "Details" : "Santander's Killers are a pirate band based on the periphery world of Santander V.",    
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrIcon_santandersKillers",
+    "primaryMechColorID" : "Metallic_Silver",
+    "secondaryMechColorID" : "Metallic_Silver",
+    "tertiaryMechColorID" : "BrightRed_02"
+}

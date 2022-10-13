@@ -1,0 +1,249 @@
+{
+    "Description" : {
+        "Id" : "event_co_Intro_ScorpsNest",
+        "Name" : "The Scorpion's Nest.",
+        "Details" : "A Tactical Tank Battle. As Access to the Galaxy is expanding so are the opportunities to travel, go to wonderful and exotic places and melt metal. The Flashpoint 'Scorpion's Nest' was inspired by the recent unearthing of a cache of late 20th century Terran publications.\r\n\r\nThe inspiration comes from a Battletech scenario designed to introduce new players to the mechanics of the table top game called:\r\n\r\n\"The Scorpions Nest\"",
+        "Icon" : "uixTxrSpot_ScorpionsNest.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 500,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "fp_Scorp_cancel",
+                "fp_Scorp_intro_cancel",
+                "fe_event_Load_ScorpsNest_cancel"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Sure - Let's play it now.",
+                "Details" : "From the annals of BattleTechnology.",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Play it Now",
+                        "Details" : "As the access to the galaxy expands there will be new opportunities and challenges. Get set to travel as Skat is a long way.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_AddFlashpoint",
+                                    "value" : "fp_ScorpsNest",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "starsystemdef_Skat"
+                                    ]
+                                },
+                                {
+                                    "Type" : "System_ForceDropshipRoom",
+                                    "value" : "Ship",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Currently busy - Play it later.",
+                "Details" : "Currently busy",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Start it later",
+                        "Details" : "This option will allow you to choose to play at a later date. Comstar has your communications account details and will send you timely reminders.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "fp_Scorp_intro_cancel"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_ForceDropshipRoom",
+                                    "value" : "Ship",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "fe_event_Load_ScorpsNest",
+                                    "MinDaysWait" : 30,
+                                    "MaxDaysWait" : 30,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_2",
+                "Name" : "Sorry but not for me.",
+                "Details" : "Comstar won't bother you again regarding this message. To play the Scorpion's Nest in the future, you will need to start a new career.",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_2_0",
+                        "Name" : "Not for me",
+                        "Details" : "Thanks but no thanks.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "fp_Scorp_cancel",
+                                    "fp_Scorp_intro_cancel",
+                                    "fe_event_Load_ScorpsNest_cancel"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_senakiY",
+    "internalName" : "senakiY",
+    "firstName" : "Senaki",
+    "lastName" : "Yasatiaka",
+    "callsign" : "Fang",
+    "rank" : "Chu-i",
+    "gender" : "Female",
+    "faction" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_senakiY.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

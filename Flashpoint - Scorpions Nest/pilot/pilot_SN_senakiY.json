@@ -1,0 +1,56 @@
+{
+    "Description": {
+        "Id": "pilot_SN_senakiY",
+        "Name": "senakiY",
+        "FirstName": "Senaki",
+        "LastName": "Yasatiaka",
+        "Callsign": "Fang",
+        "Gender": "Female",
+        "factionID": "",
+        "Age": 30,
+        "Details": "Stand in Grand Dragon pilot",
+        "Icon": "guiTxrPort_senakiY"
+    },
+    "BaseGunnery": "6",
+    "BonusGunnery": 0,
+    "BasePiloting": "7",
+    "BonusPiloting": 0,
+    "BaseGuts": "8",
+    "BonusGuts": 0,
+    "BaseTactics": "5",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 3,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "f_pro07",
+    "abilityDefNames": [
+		"TraitDefUnsteadySet60",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"TraitDefHealthAddOne",
+		"TraitDefRefireReduceOne",
+		"TraitDefOverheatAddFifteen",
+		"TraitDefHealthAddTwo",
+		"TraitDefRefireReduceTwo",
+		"AbilityDefGu5",
+		"AbilityDefGu8",
+		"AbilityDefP5"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "pilot_npc_brawler",
+            "pilot_npc_dynamic",
+            "pilot_npc_d8",
+            "BLACKLISTED",
+            "name_kaiyaS"
+
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

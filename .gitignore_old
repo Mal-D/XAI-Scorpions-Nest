@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+/__*
+*.code-workspace
+**/__TestObjects
+
+
+
+
+=======
+**/__TestObjects
+*.code-workspace
+__*.*
+>>>>>>> ODS2-v5.0.0

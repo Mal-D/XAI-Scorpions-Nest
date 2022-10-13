@@ -1,0 +1,29 @@
+{
+	"travelContractFactionID" : "AuriganRestoration",
+	"blackMarketFactionID" : "AuriganPirates", 
+    "enumerationValueList" : [
+		{
+			"ID" : 7050,
+			"Name" : "santandersKillers",
+			"FriendlyName" : "Santander's Killers",
+			"Description" : "Santander's Killers were a pirate band based on the periphery world of Santander V.",
+			"FactionDefID" : "faction_santandersKillers",
+			"IsRealFaction" : true,
+			"IsGreatHouse" : false,
+			"IsClan" : false,
+			"IsMercenary" : false,
+			"IsPirate" : true,
+			"DoesGainReputation" : false,
+			"CanAlly" : false,
+			"IsPossibleNeutralToAllFaction" : true,
+			"IsPossibleHostileToAllFaction" : true,
+			"IsPossibleAllyFallbackFaction" : false,
+			"IsProceduralContractFaction" : false,
+			"IsCareerScoringFaction" : false,
+			"IsCareerIgnoredContractTarget" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
+			"HasAIBehaviorVariableScope" : false
+		}
+	]
+}

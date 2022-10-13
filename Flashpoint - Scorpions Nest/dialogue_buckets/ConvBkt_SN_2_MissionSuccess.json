@@ -1,0 +1,68 @@
+{
+    "identifier" : "ConvBkt_SN_2_MissionSuccess",
+    "contents" : [
+		{
+			"words" : "That's all of them, Commander. Well done. I was sceptical at first but, you have proved your worth.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_KuritaRepDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Any change at some better 'Mechs, Reynauld? These are hardly front line units.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Alas my friend, being this close to the boarder all the first line units are garrisoned to protect other interests.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_KuritaRepDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "<i>Stingers</i> and <i>Jenners</i> against one tank is fine but the number we are seeing here is cutting it a bit fine.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		}    ]
+}

@@ -1,0 +1,62 @@
+{
+   "Description" : {
+      "Id" : "lancedef_scorp_ally_beast_lance",
+      "Name" : "Ally Beast Lance",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 1182000,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 6,
+   "LanceTags" : {
+      "items" : [],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_panther_PNT-9R",
+         
+         "pilotId" : "pilot_d8_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_locust_LCT-1S",
+         
+         "pilotId" : "pilot_d8_tactician",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_panther_PNT-9R",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_panther_PNT-9R",
+         
+         "pilotId" : "pilot_d3_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      }
+   ]
+}

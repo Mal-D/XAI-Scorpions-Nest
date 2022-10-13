@@ -1,0 +1,62 @@
+{
+   "Description" : {
+      "Id" : "lancedef_scorp_ally_light_lance",
+      "Name" : "Ally light Lance",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 12580000,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 6,
+   "LanceTags" : {
+      "items" : [],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_panther_PNT-9R",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_panther_PNT-9R",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_stinger_STG-3G",
+         
+         "pilotId" : "pilot_d3_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_stinger_STG-3G",
+         
+         "pilotId" : "pilot_d3_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      }
+   ]
+}

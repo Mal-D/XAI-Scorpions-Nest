@@ -1,0 +1,37 @@
+{
+    "Name": "FlashPoint_ScorpionsNest",
+    "Enabled": true,
+	
+    "Version": "1.0.0-Prod",
+
+    "Author": "MalD.",
+
+	"DependsOn": ["BTR-Overrides" , "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
+    "ConflictsWith": [],
+	"DataAddendumEntries":[ 
+        { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
+	],
+    "Manifest": [
+	{ "Type": "CastDef", "Path": "cast" },
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "ContractOverride", "Path": "contracts" },
+	{ "Type": "ContractOverride", "Path": "../../Mods/MissionControl/overrides/contracts" }, 
+	{ "Type": "LanceDef" , "Path": "lances", "AddToDB": true },
+	{ "Type": "SimGameEventDef", "Path": "events" },	
+	{ "Type": "FactionDef",  "Path": "factions" },
+	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
+	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
+	{ "Type": "FlashpointDef", "Path": "flashpoints" },
+	{ "Type": "HeraldryDef", "Path": "heraldry" },
+	{ "Type": "PilotDef", "Path": "pilot" },
+	{ "Type": "BaseDescriptionDef", "Path": "lore" },
+	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
+	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "Texture2D", "Path": "sprites" },
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
+	{ "Type": "SimGameStatDescDef", "Path": "../../Mods/Flashpoint - Scorpions Nest/simGameStatDesc", "AddToDB": true }
+    ]
+}

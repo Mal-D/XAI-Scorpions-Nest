@@ -1,0 +1,62 @@
+{
+   "Description" : {
+      "Id" : "lancedef_scorp_ally_heavy_lance",
+      "Name" : "Ally Heavy Lance",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 23700000,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 6,
+   "LanceTags" : {
+      "items" : [],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_dragon_DRG-1C",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_jenner_JR7-F",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_panther_PNT-9R",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_jenner_JR7-F",
+         
+         "pilotId" : "pilot_d3_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      }
+   ]
+}

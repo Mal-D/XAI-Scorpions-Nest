@@ -1,0 +1,62 @@
+{
+   "Description" : {
+      "Id" : "lancedef_vehicle_scorpion_lvl_2",
+      "Name" : "Scorpion_lvl_2",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 2000,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 6,
+   "LanceTags" : {
+      "items" : [],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_SCORPION",
+         
+         "pilotId" : "pilot_d3_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_SCORPION_SRM",
+         
+         "pilotId" : "pilot_d3_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_SCORPION_LRM",
+         
+         "pilotId" : "pilot_d6_tactician",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Vehicle",
+         "unitId" : "vehicledef_SCORPION_SRM",
+         
+         "pilotId" : "pilot_d3_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      }
+   ]
+}
