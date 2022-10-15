@@ -27,7 +27,7 @@
       },
       {
          "unitType" : "Vehicle",
-         "unitId" : "vehicledef_SCORPION_SRM",
+         "unitId" : "vehicledef_SCORPION_FS",
          
          "pilotId" : "pilot_d5_gunner",
 
@@ -38,7 +38,7 @@
       },
       {
          "unitType" : "Vehicle",
-         "unitId" : "vehicledef_SCORPION_LRM",
+         "unitId" : "vehicledef_SCORPION_LBX",
          
          "pilotId" : "pilot_d6_tacticican",
 

@@ -38,7 +38,7 @@
       },
       {
          "unitType" : "Vehicle",
-         "unitId" : "vehicledef_SCORPION_ML",
+         "unitId" : "vehicledef_SCORPION",
          
          "pilotId" : "pilot_d3_gunner",
 

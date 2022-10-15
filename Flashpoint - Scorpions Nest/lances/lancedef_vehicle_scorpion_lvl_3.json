@@ -27,7 +27,7 @@
       },
       {
          "unitType" : "Vehicle",
-         "unitId" : "vehicledef_SCORPION_SRM",
+         "unitId" : "vehicledef_SCORPION",
          
          "pilotId" : "pilot_d5_gunner",
 

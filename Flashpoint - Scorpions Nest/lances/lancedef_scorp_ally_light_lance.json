@@ -38,7 +38,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_stinger_STG-3G",
+         "unitId" : "mechdef_locust_LCT-1M",
          
          "pilotId" : "pilot_d3_gunner",
 
@@ -49,7 +49,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_stinger_STG-3G",
+         "unitId" : "mechdef_locust_LCT-1M",
          
          "pilotId" : "pilot_d3_gunner",
 

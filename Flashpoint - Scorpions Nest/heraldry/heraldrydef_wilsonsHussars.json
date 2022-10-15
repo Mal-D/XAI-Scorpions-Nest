@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_wilsonsHussars",
+        "Name" : "Wilson's Hussars",
+        "Details" : "By 3021 Wilson's Hussars had officially gone rogue and Helmar Valasek, Bandit King of Santander V has left them to their fate after failing several contracts.",    
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrIcon_wilsonsHussars",
+    "primaryMechColorID" : "Purple_05",
+    "secondaryMechColorID" : "BrightWhite_01",
+    "tertiaryMechColorID" : "Metallic_Silver"
+}

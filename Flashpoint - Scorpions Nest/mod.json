@@ -2,11 +2,11 @@
     "Name": "FlashPoint_ScorpionsNest",
     "Enabled": true,
 	
-    "Version": "1.0.0-Prod",
+    "Version": "1.0.0-XAI",
 
     "Author": "MalD.",
 
-	"DependsOn": ["BTR-Overrides" , "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
+	"DependsOn": [ "XAI", "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
     "ConflictsWith": [],
 	"DataAddendumEntries":[ 
         { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }

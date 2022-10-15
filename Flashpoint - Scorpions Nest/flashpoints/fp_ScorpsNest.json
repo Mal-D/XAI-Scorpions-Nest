@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "fp_ScorpsNest",
         "Name" : "The Scorpion's Nest",
-        "Details" : "Surviving units of the Santander's Killers has escaped Sandander's World and thought they'd renew their operation. Helmar Valasek wants to spread his influence and is trying to setup shop here on Skat. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Track down these survivors and finish them for good.",
+        "Details" : "Ambitious units of the Santander's Killers emigrated from Sandander's World and thought they'd set up a new branch of operation. Helmar Valasek gave his blessing for them to spread his influence and is raiding Kurita systems for water, grain as well as 'Mech and vehicle parts. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Track down these pirates and finish them for good.",
         "Icon" : "uixTxrSpot_ScorpionsNest.png"
     },
     "Weight" : 500,
@@ -14,7 +14,7 @@
         "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [
-                "planet_name_skat"
+                "planet_name_newganymede"
             ],
             "tagSetSourceFile" : "Tags/PlanetTags"
         },
@@ -42,7 +42,7 @@
     "RewardCollectionID" : "itemCollection_loot_ScorpsNest_1",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "Surviving units of the Santander's Killers has escaped Sandander's World and thought they'd renew their operation. You might get multiple bites at this cherry.",
+    "FlashpointShortDescription" : "The Kurita Representatives needs to stop an ambitious operation by Wilson's Hussars on behest of Helmar Valasek, leader of Santander's Killers. Valasek is trying to expand his operation.",
     "FlashpointDescriberCastDefId" : "castDef_KuritaRepDefault",
     "Tags" : {
         "items" : [],
