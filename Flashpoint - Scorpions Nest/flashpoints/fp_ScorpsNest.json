@@ -14,7 +14,7 @@
         "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [
-                "planet_name_newganymede"
+                "planet_name_merlin"
             ],
             "tagSetSourceFile" : "Tags/PlanetTags"
         },
@@ -30,7 +30,7 @@
     "PotentialEmployers" : [
         "Kurita"
     ],
-    "TargetFaction" : "santandersKillers",
+    "TargetFaction" : "wilsonsHussars",
     "AllowRefitTime" : true,
     "FlashpointLength" : "SHORT",
     "Repeatable" : true,
