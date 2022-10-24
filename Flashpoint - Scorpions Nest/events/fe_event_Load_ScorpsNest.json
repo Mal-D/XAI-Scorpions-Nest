@@ -37,7 +37,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Play Scorpion's Nest",
-                        "Details" : "Start FP-The Scorpion's Nest",
+                        "Details" : "Start - The Scorpion's Nest",
                         "Icon" : null
                     },
                     "Weight" : 100,
@@ -60,7 +60,7 @@
                                     "value" : "fp_ScorpsNest",
                                     "valueConstant" : null,
                                     "additionalValues" : [
-                                        "starsystemdef_Skat"
+                                        "starsystemdef_Merope"
                                     ]
                                 },
                                 {

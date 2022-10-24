@@ -6,7 +6,7 @@
 
     "Author": "MalD.",
 
-	"DependsOn": [ "XAI", "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
+	"DependsOn": [ "XAI", "XAI 3025 Booster Pack", "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
     "ConflictsWith": [],
 	"DataAddendumEntries":[ 
         { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
@@ -32,6 +32,6 @@
 	{ "Type": "Sprite", "Path": "sprites" },
 	{ "Type": "Texture2D", "Path": "sprites" },
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
-	{ "Type": "SimGameStatDescDef", "Path": "../../Mods/Flashpoint - Scorpions Nest/simGameStatDesc", "AddToDB": true }
+	{ "Type": "SimGameStatDescDef", "Path": "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/simGameStatDesc", "AddToDB": true }
     ]
 }
