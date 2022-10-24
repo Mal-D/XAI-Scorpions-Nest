@@ -402,7 +402,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_cicada_CDA-3A",
+                        "unitDefId" : "mechdef_cicada_CDA-3C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -588,9 +588,9 @@
                             "EncounterObjectGuid" : "9e2d0fed-3d92-42ee-92d0-2cc595709f2a"
                         },
                         "customUnitName" : "Vandal 1",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_SRM",
+                        "unitDefId" : "vehicledef_SCORPION_FS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -621,9 +621,9 @@
                             "EncounterObjectGuid" : "e3e34fc2-c664-42ab-920b-6002c058ac55"
                         },
                         "customUnitName" : "Vandal 2",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_LRM",
+                        "unitDefId" : "vehicledef_SCORPION_LBX",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -654,7 +654,7 @@
                             "EncounterObjectGuid" : "ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27"
                         },
                         "customUnitName" : "Vandal 3",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCORPION_ML",
                         "unitTagSet" : {
@@ -687,7 +687,7 @@
                             "EncounterObjectGuid" : "f46b3021-803a-41ed-87e0-1b8cb86663b8"
                         },
                         "customUnitName" : "Vandal 4",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCORPION_ML",
                         "unitTagSet" : {
@@ -745,7 +745,7 @@
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
                         "customUnitName" : "Vandal 5",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCORPION_MKII",
                         "unitTagSet" : {
@@ -778,7 +778,7 @@
                             "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
                         "customUnitName" : "Vandal 6",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCORPION_MKII",
                         "unitTagSet" : {
@@ -811,9 +811,9 @@
                             "EncounterObjectGuid" : "5a7f08f5-3ceb-467e-b857-b3fc1874d016"
                         },
                         "customUnitName" : "Vandal 7",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION",
+                        "unitDefId" : "vehicledef_SCORPION_FS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -844,9 +844,9 @@
                             "EncounterObjectGuid" : "938ab06b-304b-4f45-ba86-abcaa0fe01c5"
                         },
                         "customUnitName" : "Vandal 8",
-                        "customHeraldryDefId" : "heraldrydef_santandersKillers",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION",
+                        "unitDefId" : "vehicledef_SCORPION_ML",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
