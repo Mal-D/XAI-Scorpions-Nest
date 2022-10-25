@@ -13,10 +13,11 @@
 	],
     "Manifest": [
 	{ "Type": "CastDef", "Path": "cast" },
+	{ "Type": "CastDef", "Path": "../../XAI Battletech/mergeCast", "ShouldMergeJSON": true },
 	{ "Type": "ChassisDef", "Path": "chassis" },
 	{ "Type": "MechDef", "Path": "mech" },
 	{ "Type": "ContractOverride", "Path": "contracts" },
-	{ "Type": "ContractOverride", "Path": "../../Mods/MissionControl/overrides/contracts" }, 
+	{ "Type": "ContractOverride", "Path": "../../MissionControl/overrides/contracts" }, 
 	{ "Type": "LanceDef" , "Path": "lances", "AddToDB": true },
 	{ "Type": "SimGameEventDef", "Path": "events" },	
 	{ "Type": "FactionDef",  "Path": "factions" },
@@ -30,8 +31,9 @@
 	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
 	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "Sprite", "Path": "../../XAI Flashpoints/Flashpoint - Scorpions Nest/sprites"},
 	{ "Type": "Texture2D", "Path": "sprites" },
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
-	{ "Type": "SimGameStatDescDef", "Path": "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/simGameStatDesc", "AddToDB": true }
-    ]
+	{ "Type": "SimGameStatDescDef", "Path": "simGameStatDesc", "AddToDB": true }
+	]
 }
