@@ -48,7 +48,7 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : [],
+                                "items" : ["fp_Scorp_intro_cancel"],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
