@@ -1,0 +1,57 @@
+{
+	"ID": "faction_HouseCunningham",
+	"Name": "House Cunningham",
+	"ShortName": "House Cunningham",
+	"Description": "House Cunningham is a minor noble family in the Federated Suns. his family made its fortunes centuries ago by becoming the owners of the largest agricultural producers on the planet Kestrel.",
+	"Demonym": "House Cunningham",
+	"Government": "Davion",
+	"Allies": [
+		"Marik",
+		"Davion",
+		"ComStar"
+	],
+	"Enemies": [
+		"Liao",
+		"Steiner",
+		"AuriganPirates",
+		"Locals",
+		"MagistracyOfCanopus"
+	],
+	"Presence": 0.1,
+	"ReputationStatements": [
+		"House Cunningham is glad you've answered our call. We have few other options.",
+		"House Cunningham is glad you've answered our call. We have few other options.",
+		"House Cunningham is glad you've answered our call. We have few other options.",
+		"House Cunningham is glad you've answered our call. We have few other options.",
+		"House Cunningham is glad you've answered our call. We have few other options.",
+		"House Cunningham is glad you've answered our call. We have few other options.",
+		"House Cunningham is glad you've answered our call. We have few other options."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. You've honored House Cunningham with your success."
+	],
+	"GoodFaithFailureStatements": [
+		"You've failed House Cunningham. Luckily for you, House Cunningham lacks the resources to punish your ineptitude."
+	],
+	"BadFaithFailureStatements": [
+		"You've disgraced yourself with your performance. House Cunningham has entrusted you honoring your obligations, clearly this means nothing to you."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_AlexandriaC",
+	"DefaultRepresentativeCastDefId": "castDef_AlexandriaC",
+	"DataManager": null,
+	"factionID": "HouseCunningham",
+    "icon" : "uixTxrLogo_Cunningham",
+	"heraldryDefId": "heraldrydef_cunningham",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}
