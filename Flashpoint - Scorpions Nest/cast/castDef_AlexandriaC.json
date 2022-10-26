@@ -1,11 +1,11 @@
 {
-    "id" : "castDef_davidW",
-    "internalName" : "davidW",
-    "firstName" : "David",
-    "lastName" : "Wilson",
-    "callsign" : "Sir",
-    "rank" : "Captain",
-    "gender" : "Male",
+    "id" : "castDef_AlexandriaC",
+    "internalName" : "AlexandriaC",
+    "firstName" : "Alexandria",
+    "lastName" : "Cunningham",
+    "callsign" : "",
+    "rank" : "Lady",
+    "gender" : "Female",
     "faction" : "",
     "sgCharType" : "UNSET",
     "showRank" : true,
@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "/sprites/Portraits/guiTxrPort_davidW.png"
+        "portraitAssetPath" : "/sprites/Portraits/guiTxrPort_DavionRep.png"
     },
     "emotePotraitList" : [
         

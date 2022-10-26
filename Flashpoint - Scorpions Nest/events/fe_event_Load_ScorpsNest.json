@@ -81,7 +81,7 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [
-                                    "fe_event_Load_ScorpsNest_cancel"
+                                    "fe_event_Load_ScorpsNest_cancel","fp_Scorp_Ready"
                                 ],
                                 "tagSetSourceFile" : ""
                             },
@@ -137,7 +137,7 @@
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
-                                "items" : [],
+                                "items" : ["fp_Scorp_Ready"],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : [],
@@ -226,7 +226,7 @@
                                 "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
-                                "items" : [],
+                                "items" : ["fp_Scorp_Ready"],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,

@@ -5,11 +5,27 @@
         "Details" : "Not wanting to go himself or risk his own men, Helmar Valasek of Santander's Killers infamy has tasked his newest Mercenary employees, Wilson's Hussars, to set up a new branch of operation in the Periphery. Giving them the honor of spreading his influence by raiding Kurita assets for water, grain as well as 'Mech and vehicle parts. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Track down these pirates and finish them for good.",
         "Icon" : "uixTxrSpot_ScorpionsNest.png"
     },
-    "Weight" : 500,
+    "Weight" : 1,
     "InternalName" : "ScorpsNest",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 6,
-    "Requirements" : [],
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : ["fp_Scorp_Ready"],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "fp_ScorpsNest_Completed",
+                    "fp_Scorp_cancel"
+                ],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "RequirementComparisons" : []
+        }
+    ],
     "LocationRequirements" : {
         "Scope" : "StarSystem",
         "RequirementTags" : {
@@ -19,10 +35,7 @@
             "tagSetSourceFile" : "Tags/PlanetTags"
         },
         "ExclusionTags" : {
-            "items" : [
-                "fp_ScorpsNest_Completed",
-                "fp_Scorp_cancel"
-            ],
+            "items" : [],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []

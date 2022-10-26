@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../mods/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_senakiY.png"
+        "portraitAssetPath" : "/sprites/Portraits/guiTxrPort_senakiY.png"
     },
     "emotePotraitList" : [
         

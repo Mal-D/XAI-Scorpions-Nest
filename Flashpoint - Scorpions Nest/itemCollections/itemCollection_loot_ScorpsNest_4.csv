@@ -1,8 +1,5 @@
 itemCollection_loot_ScorpsNest_4,,Heavy BattleMech,This payment include one of the Dragon's best.
 mechdef_quickdraw_QKD-4G,Mech,1,1
-itemCollection_BTR_Upgrade_GearRare,Reference,1,1
-itemCollection_BTR_Weapon_EnergyRare,Reference,1,1
-itemCollection_BTR_Weapon_MissileUncommon,Reference,2,1
 Weapon_COIL_COIL-M_0-STOCK,Weapon,2,1
-Weapon_Laser_TwinSmallLaser_0-STOCK,Weapon,2,1
-itemCollection_BTR_Weapon_EnergyUncommon,Reference,2,1
+Weapon_Laser_MediumLaser_0-Aberdovey,Weapon,2,1
+itemCollection_table_AdditionalLoot_uncommon,Reference,2,1
