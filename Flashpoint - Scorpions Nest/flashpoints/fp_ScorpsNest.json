@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "fp_ScorpsNest",
         "Name" : "The Scorpion's Nest",
-        "Details" : "Not wanting to go himself or risk his own men, Helmar Valasek of Santander's Killers infamy has tasked his newest Mercenary employees, Wilson's Hussars, to set up a new branch of operation in the Periphery. Giving them the honor of spreading his influence by raiding Kurita assets for water, grain as well as 'Mech and vehicle parts. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Track down these pirates and finish them for good.",
+        "Details" : "House Cunningham is in need of discression. Wilson's Hussars are being employed to expand Valasek's operation in the Periphery. Giving them the honor of spreading his influence by raiding for water, grain as well as 'Mech and vehicle parts. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Track down these pirates and finish them for good.",
         "Icon" : "uixTxrSpot_ScorpionsNest.png"
     },
     "Weight" : 1,
@@ -41,7 +41,7 @@
         "RequirementComparisons" : []
     },
     "PotentialEmployers" : [
-        "Kurita"
+        "HouseCunningham"
     ],
     "TargetFaction" : "wilsonsHussars",
     "AllowRefitTime" : true,
@@ -55,8 +55,8 @@
     "RewardCollectionID" : "itemCollection_loot_ScorpsNest_1",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "The Kurita Representatives needs to stop an ambitious operation by Wilson's Hussars to expand the influence of Helmar Valasek, leader of Santander's Killers.",
-    "FlashpointDescriberCastDefId" : "castDef_KuritaRepDefault",
+    "FlashpointShortDescription" : "Lady Cunningham needs a discrete Mercenary Unit to stop an ambitious operation by Wilson's Hussars to expand the influence of Helmar Valasek.",
+    "FlashpointDescriberCastDefId" : "castDef_AlexandriaC",
     "Tags" : {
         "items" : [],
         "tagSetSourceFile" : "tags/FlashpointTags"

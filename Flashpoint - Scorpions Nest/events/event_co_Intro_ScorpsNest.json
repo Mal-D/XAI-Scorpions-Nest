@@ -6,7 +6,7 @@
         "Icon" : "uixTxrSpot_ScorpionsNest.png"
     },
     "Scope" : "Company",
-    "Weight" : 500,
+    "Weight" : 1,
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
@@ -15,6 +15,7 @@
         },
         "ExclusionTags" : {
             "items" : [
+                "fp_Scorp_Ready",
                 "fp_Scorp_cancel",
                 "fp_Scorp_intro_cancel",
                 "fe_event_Load_ScorpsNest_cancel"

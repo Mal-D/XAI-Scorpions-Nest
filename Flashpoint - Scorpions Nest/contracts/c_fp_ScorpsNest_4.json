@@ -370,7 +370,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_granddragon_DRG-1G",
+                        "unitDefId" : "mechdef_orion_ON1-K",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -403,7 +403,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_quickdraw_QKD-4G",
+                        "unitDefId" : "mechdef_quickdraw_QKD-4H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -525,7 +525,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "santandersKillers",
+        "faction" : "heraldrydef_wilsonsHussars",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
