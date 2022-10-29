@@ -16,7 +16,7 @@
    "LanceUnits" : [
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_panther_PNT-9R",
+         "unitId" : "mechdef_orion_ON1-M",
          
          "pilotId" : "pilot_d8_gunner",
 

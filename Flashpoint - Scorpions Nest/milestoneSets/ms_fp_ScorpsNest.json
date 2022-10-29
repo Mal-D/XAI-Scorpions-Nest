@@ -358,7 +358,7 @@
                                 null,
                                 "75ab95be-3632-41a5-9b18-28c205cbcee4",
                                 "c_fp_ScorpsNest_1",
-                                "Kurita",
+                                "HouseCunningham",
                                 "wilsonsHussars",
                                 "2",
                                 "ms_fp_ScorpsNest_002_Talk",
@@ -431,7 +431,7 @@
                                 null,
                                 "46830800-99a4-4c9e-9b03-4eb5dd8c7b1f",
                                 "c_fp_ScorpsNest_2",
-                                "Kurita",
+                                "HouseCunningham",
                                 "wilsonsHussars",
                                 "6",
                                 "ms_fp_ScorpsNest_002_Talk",
@@ -502,7 +502,7 @@
                                 null,
                                 "cc1d410c-5237-4e36-9855-5d4e0e68dd21",
                                 "c_fp_ScorpsNest_3",
-                                "Kurita",
+                                "HouseCunningham",
                                 "wilsonsHussars",
                                 "6",
                                 "ms_fp_ScorpsNest_002_Talk",
@@ -573,7 +573,7 @@
                                 null,
                                 "d803c712-dc3a-4022-991e-12fd8248b51f",
                                 "c_fp_ScorpsNest_5",
-                                "Kurita",
+                                "HouseCunningham",
                                 "wilsonsHussars",
                                 "6",
                                 "ms_fp_ScorpsNest_002_Talk",
@@ -1160,7 +1160,7 @@
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Reputation.Kurita",
+                            "name" : "Reputation.Davion",
                             "value" : "5",
                             "set" : false,
                             "valueConstant" : null
@@ -1221,7 +1221,7 @@
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Reputation.Kurita",
+                            "name" : "Reputation.Davion",
                             "value" : "110",
                             "set" : false,
                             "valueConstant" : null
@@ -1282,7 +1282,7 @@
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Reputation.Kurita",
+                            "name" : "Reputation.Davion",
                             "value" : "15",
                             "set" : false,
                             "valueConstant" : null
@@ -1343,7 +1343,7 @@
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Reputation.Kurita",
+                            "name" : "Reputation.Davion",
                             "value" : "25",
                             "set" : false,
                             "valueConstant" : null
@@ -1408,7 +1408,7 @@
                         },
                         {
                             "typeString" : "System.Int32",
-                            "name" : "Reputation.Kurita",
+                            "name" : "Reputation.Davion",
                             "value" : "-15",
                             "set" : false,
                             "valueConstant" : null
