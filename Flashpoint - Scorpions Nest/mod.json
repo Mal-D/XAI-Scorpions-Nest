@@ -6,7 +6,7 @@
 
     "Author": "MalD.",
 
-	"DependsOn": [ "XAI", "XAI 3025 Booster Pack", "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
+	"DependsOn": [ "XAI", "XAI Booster Pack 3025", "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
     "ConflictsWith": [],
 	"DataAddendumEntries":[ 
         { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
