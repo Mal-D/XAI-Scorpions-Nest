@@ -7,8 +7,8 @@
         "Model" : "null",
         "UIName" : "null",
         "Id" : "heraldrydef_santandersKillers",
-        "Name" : "Santanders Killers",
-        "Details" : "Santander's Killers are a pirate band based on the periphery world of Santander V.",    
+        "Name" : "Santanders' Killers",
+        "Details" : "Santanders' Killers are a pirate band based on the periphery world of Santander V.",    
         "Icon" : ""
     },
     "textureLogoID" : "uixTxrIcon_santandersKillers",

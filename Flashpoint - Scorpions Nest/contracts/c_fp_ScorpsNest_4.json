@@ -133,7 +133,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -214,7 +214,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -239,7 +239,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -248,7 +248,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "That's all the pirates destroyed. Take us home Yamaguchi.",
+                    "words" : "That's all the pirates destroyed. Take us home.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

@@ -47,6 +47,29 @@
 			"IsCareerStartingDisplayFaction" : false,
 			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
+		},
+		{
+			"ID" : 7052,
+			"Name" : "HouseCunningham",
+			"FriendlyName" : "House Cunnigham",
+			"Description" : "WHile being considered a 'Minor' house made its fortunes centuries ago by becoming the owners of the largest agricultural producers on the planet Kestrel. Over time, the Cunninghams have expanded and diversified their dealings into the business, military and governmental operations of their nation. This has led the family to be listed as one of the richest families within the Federated Suns in the 31st century.",
+			"FactionDefID" : "faction_HouseCunningham",
+			"IsRealFaction" : true,
+			"IsGreatHouse" : false,
+			"IsClan" : false,
+			"IsMercenary" : false,
+			"IsPirate" : false,
+			"DoesGainReputation" : false,
+			"CanAlly" : false,
+			"IsPossibleNeutralToAllFaction" : false,
+			"IsPossibleHostileToAllFaction" : false,
+			"IsPossibleAllyFallbackFaction" : false,
+			"IsProceduralContractFaction" : false,
+			"IsCareerScoringFaction" : false,
+			"IsCareerIgnoredContractTarget" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
+			"HasAIBehaviorVariableScope" : false
 		}
 	]
 }

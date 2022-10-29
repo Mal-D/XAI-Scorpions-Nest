@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "We've just detected multiple {TEAM_TAR.FactionDef.Demonym} Tank lances en route to our Storage facility. Valasek is stepping up his attack. We have a turret defence system. He cannot be allowed to loot the destroyed buildings.",
+    "shortDescription" : "We've just detected multiple {TEAM_TAR.FactionDef.Demonym} Tank lances en route to our Manufacturing facility. The Hussars are stepping up their attack. We have a turret defence system. He cannot be allowed to loot the destroyed buildings.",
     "longDescription" : "This will be a challenge Commander. ",
     "salvagePotential" : 20,
     "requirementList" : [],
@@ -79,7 +79,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "0e4ac925-d95a-4019-aeb0-0aa553830f46"
             },
-            "title" : "Destroy Valasek's Units",
+            "title" : "Destroy the Hussar Units",
             "description" : "Destroy the enemy vanguard force, the first wave.",
             "isPrimary" : true,
             "OnSuccessResults" : [
@@ -300,14 +300,14 @@
             "dialogueContent" : [
                 
                 {
-                    "words" : "Commander. Please look after Chu-i Yasatiaka. She has taken on a great burden attempting to expunge her brother's cowardice.",
+                    "words" : "Commander. Please look after Yasatiaka. She has taken on a great burden attempting to expunge her brother's cowardice.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -388,7 +388,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -454,7 +454,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -472,7 +472,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Seems Yamaguchi was successful with his 'negotations' and convinced them to choose between one of the two evils.",
+                    "words" : "Seems the Governor was successful with his 'negotations' and convinced them to choose between one of the two evils.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -495,7 +495,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "3560382a-c082-4a0b-8cab-8e6327b74cce",
@@ -513,7 +513,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_Universal_HostilesInbound",
             "dialogueContent" : [
                 {
-                    "words" : "Warning commander, sensors are reading multiple contacts approaching from multiple vectors. Looks like Valasek has brought reinforcements.",
+                    "words" : "Warning commander, sensors are reading multiple contacts approaching from multiple vectors. Looks like the Hussars have brought reinforcements.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -545,7 +545,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -570,7 +570,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -613,14 +613,14 @@
             "overrideDialogueBucketId" : "DialogBucketDef_DefendBase_AllyReinforcements",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, Valasek's reinforcements are incoming, they are about halfway there.",
+                    "words" : "Commander, Wilson's reinforcements are incoming, they are about halfway there.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -686,7 +686,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Yamaguchi, where are the turrets you promised.",
+                    "words" : "Lady Cunningham, where are the turrets you promised?",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -709,7 +709,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -741,7 +741,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",

@@ -191,7 +191,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -200,7 +200,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Yamaguchi, I hope your people are coming to pick my pilots up. This would have been so much easier to co-ordinate if we could use our Company.",
+                    "words" : "Yamaguchi, I hope your people are coming to pick my pilots up. This would have been so much easier to co-ordinate if we could use our own Company.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -223,7 +223,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -255,7 +255,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -264,7 +264,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Your funeral Reynauld...",
+                    "words" : "Your funeral ...",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -296,7 +296,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_KuritaRepDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
