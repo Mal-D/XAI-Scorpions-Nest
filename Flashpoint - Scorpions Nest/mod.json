@@ -31,7 +31,6 @@
 	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
 	{ "Type": "Sprite", "Path": "sprites" },
-	{ "Type": "Sprite", "Path": "Flashpoint - Scorpions Nest/sprites"},
 	{ "Type": "Texture2D", "Path": "sprites" },
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
 	{ "Type": "SimGameStatDescDef", "Path": "simGameStatDesc", "AddToDB": true }

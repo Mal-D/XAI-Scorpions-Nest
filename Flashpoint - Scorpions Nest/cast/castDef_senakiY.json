@@ -1,12 +1,12 @@
 {
     "id" : "castDef_senakiY",
     "internalName" : "senakiY",
-    "firstName" : "Senaki",
+    "firstName" : "Senaki(Sue)",
     "lastName" : "Yasatiaka",
     "callsign" : "Fang",
     "rank" : "Chu-i",
     "gender" : "Female",
-    "faction" : "Kurita",
+    "faction" : "Davion",
     "sgCharType" : "UNSET",
     "showRank" : true,
     "showFirstName" : true,
@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "/sprites/Portraits/guiTxrPort_senakiY.png"
+        "portraitAssetPath" : "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_senakiY.png"
     },
     "emotePotraitList" : [
         

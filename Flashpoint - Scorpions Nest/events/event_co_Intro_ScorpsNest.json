@@ -6,7 +6,7 @@
         "Icon" : "uixTxrSpot_ScorpionsNest.png"
     },
     "Scope" : "Company",
-    "Weight" : 1,
+    "Weight" : 500,
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {

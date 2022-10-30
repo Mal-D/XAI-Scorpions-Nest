@@ -16,6 +16,28 @@
    "LanceUnits" : [
       {
          "unitType" : "Mech",
+         "unitId" : "mechdef_kintaro_KTO-19",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "mechdef_firestarter_FS9-HW",
+         
+         "pilotId" : "pilot_d5_gunner",
+
+         "unitTagSet" : null,
+         "excludedUnitTagSet" : null,
+         "pilotTagSet" : null,
+         "excludedPilotTagSet" : null
+      },
+      {
+         "unitType" : "Mech",
          "unitId" : "mechdef_panther_PNT-9R",
          
          "pilotId" : "pilot_d5_gunner",
@@ -27,29 +49,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_jenner_JR7-F",
-         
-         "pilotId" : "pilot_d5_gunner",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_panther_PNT-9R",
-         
-         "pilotId" : "pilot_d5_gunner",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_locust_LCT-1M",
+         "unitId" : "mechdef_wolfhound_WLF-1",
          
          "pilotId" : "pilot_d3_gunner",
 

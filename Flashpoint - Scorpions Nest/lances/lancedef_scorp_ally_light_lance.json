@@ -16,7 +16,7 @@
    "LanceUnits" : [
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_panther_PNT-9R",
+         "unitId" : "mechdef_dervish_DV-6M",
          
          "pilotId" : "pilot_d5_gunner",
 
@@ -27,7 +27,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_panther_PNT-9R",
+         "unitId" : "mechdef_wolfhound_WLF-1A",
          
          "pilotId" : "pilot_d5_gunner",
 
@@ -38,7 +38,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_locust_LCT-1M",
+         "unitId" : "mechdef_wolfhound_WLF-1A",
          
          "pilotId" : "pilot_d3_gunner",
 
@@ -49,7 +49,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_locust_LCT-1M",
+         "unitId" : "mechdef_panther_PNT-9R",
          
          "pilotId" : "pilot_d3_gunner",
 

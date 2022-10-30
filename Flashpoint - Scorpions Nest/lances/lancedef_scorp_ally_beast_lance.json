@@ -16,7 +16,7 @@
    "LanceUnits" : [
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_orion_ON1-M",
+         "unitId" : "mechdef_orion_ON1-K",
          
          "pilotId" : "pilot_d8_gunner",
 
@@ -27,7 +27,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_locust_LCT-1S",
+         "unitId" : "mechdef_crusader_CRD-3L",
          
          "pilotId" : "pilot_d8_tactician",
 

@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "/sprites/Portraits/guiTxrPort_helmarV.png"
+        "portraitAssetPath" : "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_helmarV.png"
     },
     "emotePotraitList" : [
         
