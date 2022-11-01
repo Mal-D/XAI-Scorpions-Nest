@@ -14,7 +14,7 @@
     "AllyLances": ["lancedef_scorp_ally_medium_lance"]
   },
   "ExtendedLances": {
-    "Enable": true,
+    "Enable": false,
     "EnemyLanceSize": 4,
     "AllyLanceSize": 4
   },

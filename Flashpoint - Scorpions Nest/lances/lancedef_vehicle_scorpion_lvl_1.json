@@ -29,7 +29,7 @@
          "unitType" : "Vehicle",
          "unitId" : "vehicledef_SCORPION_ML",
          
-         "pilotId" : "pilot_d5_gunner",
+         "pilotId" : "pilot_d3_gunner",
 
          "unitTagSet" : null,
          "excludedUnitTagSet" : null,
@@ -38,7 +38,7 @@
       },
       {
          "unitType" : "Vehicle",
-         "unitId" : "vehicledef_SCORPION",
+         "unitId" : "vehicledef_SCORPION_LRM",
          
          "pilotId" : "pilot_d3_gunner",
 
@@ -49,7 +49,7 @@
       },
       {
          "unitType" : "Vehicle",
-         "unitId" : "vehicledef_SCORPION_ML",
+         "unitId" : "vehicledef_SCORPION_LRM",
          
          "pilotId" : "pilot_d3_gunner",
 

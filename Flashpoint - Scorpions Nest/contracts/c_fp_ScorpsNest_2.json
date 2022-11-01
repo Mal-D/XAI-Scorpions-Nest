@@ -11,12 +11,13 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Helmar Valasek wants to spread his influence and setup shop here on Skat. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Destroy them Commander.",
+    "shortDescription" : "Helmar Valasek wants to spread his influence and setup shop here on Merope. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Destroy them Commander.",
     "longDescription" : "Commander {Commander.LastName}, this sandy hellhole will be the graveyard of all those who plan to plunder from the Dragon.",
     "salvagePotential" : 8,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
-    "OnContractFailureResults" : [
+    "OnContractFailureResults" : 
+    [
         {
             "typeString" : "System.Int32",
             "name" : "ScorpCount",
@@ -290,7 +291,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_dragon_DRG-1C",
+                        "unitDefId" : "mechdef_quickdraw_QKD-4H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -356,7 +357,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_stinger_STG-3G",
+                        "unitDefId" : "mechdef_vulcan_VL-5T",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -463,7 +464,7 @@
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
-                    "items" : [],
+                    "items" : ["spawn_poorly_maintained_50"],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment" : 2,
@@ -478,7 +479,7 @@
                         "customUnitName" : "Vandal 1",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_FS",
+                        "unitDefId" : "vehicledef_SCORPION",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -488,7 +489,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -521,7 +522,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -554,7 +555,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -587,7 +588,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -678,7 +679,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -711,7 +712,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_tactician",
@@ -734,7 +735,7 @@
                         "customUnitName" : "Vandal 8",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_FS",
+                        "unitDefId" : "vehicledef_SCORPION_LRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -744,7 +745,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",

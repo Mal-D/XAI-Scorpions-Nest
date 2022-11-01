@@ -14,7 +14,7 @@
     "AllyLances": []
   },
   "ExtendedLances": {
-    "Enable": true,
+    "Enable": false,
     "EnemyLanceSize": 4,
     "AllyLanceSize": 4
   },

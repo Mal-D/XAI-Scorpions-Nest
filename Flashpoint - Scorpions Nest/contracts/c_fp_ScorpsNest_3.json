@@ -126,7 +126,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Thanks for the heavier 'Mechs Yamaguchi.",
+                    "words" : "Thanks for the heavier 'Mechs Lady Cunningham.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -231,7 +231,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "harrumphhh... Point taken Mr. Olivera.",
+                    "words" : "harrummmffff... Point taken Mr. Olivera.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -387,7 +387,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_dragon_DRG-1C",
+                        "unitDefId" : "mechdef_quickdraw_QKD-4H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -453,7 +453,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_jenner_JR7-D",
+                        "unitDefId" : "mechdef_wolfhound_WLF-1B",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -527,7 +527,7 @@
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
-                    "items" : [],
+                    "items" : ["spawn_poorly_maintained_50"],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment" : 2,
@@ -542,7 +542,7 @@
                         "customUnitName" : "Vandal 1",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION",
+                        "unitDefId" : "vehicledef_SCORPION_LRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -552,7 +552,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -575,7 +575,7 @@
                         "customUnitName" : "Vandal 2",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION",
+                        "unitDefId" : "vehicledef_SCORPION_LRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -585,7 +585,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -618,7 +618,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -651,7 +651,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -709,10 +709,10 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_gunner",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -732,7 +732,7 @@
                         "customUnitName" : "Vandal 6",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION",
+                        "unitDefId" : "vehicledef_SCORPION_LRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -742,7 +742,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -775,7 +775,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_tactician",
@@ -798,7 +798,7 @@
                         "customUnitName" : "Vandal 8",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_FS",
+                        "unitDefId" : "vehicledef_SCORPION_LRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -808,7 +808,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
