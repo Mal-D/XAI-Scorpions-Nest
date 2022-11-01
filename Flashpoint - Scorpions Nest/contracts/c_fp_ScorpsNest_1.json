@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ScorpsNest_1",
-    "contractName" : "Scorpion's Nest 1",
+    "contractName" : "Scorpion's Nest 1..",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 3,
     "difficultyUIModifier" : 0,
@@ -93,7 +93,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }

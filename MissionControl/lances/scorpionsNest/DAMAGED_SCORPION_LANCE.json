@@ -1,0 +1,80 @@
+{
+  "lanceKey": "DAMAGED_SCORPION_LANCE",
+  "lanceDefId": "Manual",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "lanceExcludedTagSet": {
+    "items": []
+  },
+  "spawnEffectTags": {
+    "items": []
+  },
+  "lanceDifficultyAdjustment": 0,
+  "unitSpawnPointOverrideList": [
+    { "unitType": "Vehicle",
+      "unitDefId": "vehicledef_SCORPION",
+      "unitExcludedTagSet": {
+        "items": []
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      },
+      "pilotDefId": "pilot_d4_gunner",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    { "unitType": "Vehicle",
+      "unitDefId": "vehicledef_SCORPION",
+      "unitExcludedTagSet": {
+        "items": []
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_75"]
+      },
+      "pilotDefId": "pilot_d4_gunner",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    { "unitType": "Vehicle",
+      "unitDefId": "vehicledef_SCORPION",
+      "unitExcludedTagSet": {
+        "items": []
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_25"]
+      },
+      "pilotDefId": "pilot_d4_gunner",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    { "unitType": "Vehicle",
+    "unitDefId": "vehicledef_SCORPION",
+    "unitExcludedTagSet": {
+      "items": []
+    },
+    "spawnEffectTags": {
+      "items": ["spawn_poorly_maintained"]
+    },
+    "pilotDefId": "pilot_d4_gunner",
+    "pilotTagSet": {
+      "items": []
+    },
+    "pilotExcludedTagSet": {
+      "items": []
+    }
+  }
+  ]
+}

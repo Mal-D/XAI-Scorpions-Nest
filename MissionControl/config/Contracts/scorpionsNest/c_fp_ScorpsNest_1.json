@@ -9,7 +9,7 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 1,
-    "EnemyLances": ["lancedef_vehicle_scorpion_lvl_1"],
+    "EnemyLances": ["DAMAGED_SCORPION_LANCE_75"],
     "AllyLanceCount": 0,
     "AllyLances": []
   },
