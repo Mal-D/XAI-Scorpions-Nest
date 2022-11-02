@@ -20,7 +20,7 @@
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_75"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -36,7 +36,7 @@
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_75"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -52,7 +52,7 @@
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_75"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d2_recruit",
       "pilotTagSet": {
         "items": []
       },
@@ -68,7 +68,7 @@
     "spawnEffectTags": {
       "items": ["spawn_poorly_maintained_75"]
     },
-    "pilotDefId": "pilot_d4_gunner",
+    "pilotDefId": "pilot_d2_recruit",
     "pilotTagSet": {
       "items": []
     },

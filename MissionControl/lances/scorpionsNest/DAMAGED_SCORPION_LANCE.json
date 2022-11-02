@@ -13,14 +13,14 @@
   "lanceDifficultyAdjustment": 0,
   "unitSpawnPointOverrideList": [
     { "unitType": "Vehicle",
-      "unitDefId": "vehicledef_SCORPION",
+      "unitDefId": "vehicledef_SCORPION_FS",
       "unitExcludedTagSet": {
         "items": []
       },
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_50"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -29,14 +29,14 @@
       }
     },
     { "unitType": "Vehicle",
-      "unitDefId": "vehicledef_SCORPION",
+      "unitDefId": "vehicledef_SCORPION_LRM",
       "unitExcludedTagSet": {
         "items": []
       },
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_75"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -45,14 +45,14 @@
       }
     },
     { "unitType": "Vehicle",
-      "unitDefId": "vehicledef_SCORPION",
+      "unitDefId": "vehicledef_SCORPION_ML",
       "unitExcludedTagSet": {
         "items": []
       },
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_25"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -61,14 +61,14 @@
       }
     },
     { "unitType": "Vehicle",
-    "unitDefId": "vehicledef_SCORPION",
+    "unitDefId": "vehicledef_SCORPION_LBX",
     "unitExcludedTagSet": {
       "items": []
     },
     "spawnEffectTags": {
-      "items": ["spawn_poorly_maintained"]
+      "items": [""]
     },
-    "pilotDefId": "pilot_d4_gunner",
+    "pilotDefId": "pilot_d2_recruit",
     "pilotTagSet": {
       "items": []
     },

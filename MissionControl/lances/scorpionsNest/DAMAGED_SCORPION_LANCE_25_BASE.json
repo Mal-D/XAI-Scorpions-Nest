@@ -1,5 +1,5 @@
 {
-  "lanceKey": "DAMAGED_SCORPION_LANCE_25",
+  "lanceKey": "DAMAGED_SCORPION_LANCE_25_BASE",
   "lanceDefId": "Manual",
   "lanceTagSet": {
     "items": ["lance_type_battle"]
@@ -20,7 +20,7 @@
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_25"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -36,7 +36,7 @@
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_25"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -52,7 +52,7 @@
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_25"]
       },
-      "pilotDefId": "pilot_d4_gunner",
+      "pilotDefId": "pilot_d3_gunner",
       "pilotTagSet": {
         "items": []
       },
@@ -68,7 +68,7 @@
     "spawnEffectTags": {
       "items": ["spawn_poorly_maintained_25"]
     },
-    "pilotDefId": "pilot_d4_gunner",
+    "pilotDefId": "pilot_d3_gunner",
     "pilotTagSet": {
       "items": []
     },

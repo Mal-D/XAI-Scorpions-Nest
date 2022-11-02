@@ -9,7 +9,7 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 3,
-    "EnemyLances": ["lancedef_vehicle_scorpion_lvl_3","lancedef_vehicle_scorpion_lvl_2","lancedef_vehicle_scorpion_lvl_1"],
+    "EnemyLances": ["DAMAGED_SCORPION_LANCE_25_MIXED","DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_LRM"],
     "AllyLanceCount": 1,
     "AllyLances": ["lancedef_scorp_ally_beast_lance"]
   },
@@ -26,6 +26,6 @@
     "Enable": false
   },
   "AdditionalPlayerMechs": {
-    "Enable": true
+    "Enable": false
   }
 }
