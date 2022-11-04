@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ScorpsNest_3",
-    "contractName" : "Scorpion's Nest Three",
+    "contractName" : "Scorpion's Nest Three...",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 5,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Local militia have managed to halt the incursion of these pirates. If the dome comes under attack then hundereds of thousands of Kuritan citizen will be in danger. We have some milita 'Mech units on standby. Join up with them and eliminate the threat.",
-    "longDescription" : "Commander {Commander.LastName}, You need to clear these quickly to ensure the atmosphere processing infrastructure is not put at further risk.",
+    "shortDescription" : "Local militia have managed to halt the incursion of these pirates. If the dome comes under attack then hundereds of thousands of Fedeartion citizens will be in danger. We have some milita 'Mech units on standby. Join up with them and eliminate the threat.",
+    "longDescription" : "Commander {Commander.LastName}, You need to clear these quickly to ensure the processing infrastructure is not put at further risk.",
     "salvagePotential" : 8,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
@@ -305,7 +305,7 @@
     "overrideAutoCompleteDialogueId" : null,
     "disableNegotations" : false,
     "disableLanceConfiguration" : false,
-    "disableCancelButton" : false,
+    "disableCancelButton" : true,
     "disableAfterAction" : false,
     "contractRewardOverride" : -1,
     "travelOnly" : false,
@@ -420,7 +420,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_panther_PNT-9R",
+                        "unitDefId" : "mechdef_wolfhound_WLF-1B",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -542,7 +542,7 @@
                         "customUnitName" : "Vandal 1",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_LRM",
+                        "unitDefId" : "vehicledef_SCORPION_LRM-SN",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -575,7 +575,7 @@
                         "customUnitName" : "Vandal 2",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_LRM",
+                        "unitDefId" : "vehicledef_SCORPION_LRM-SN",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -732,7 +732,7 @@
                         "customUnitName" : "Vandal 6",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_LRM",
+                        "unitDefId" : "vehicledef_SCORPION_LRM-SN",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -798,7 +798,7 @@
                         "customUnitName" : "Vandal 8",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_LRM",
+                        "unitDefId" : "vehicledef_SCORPION_LRM-SN",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

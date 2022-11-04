@@ -6,7 +6,12 @@
 
     "Author": "MalD.",
 
-	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "Mission Control" , "ColourfulFlashPoints","ExtendedConversations"],
+	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "Mission Control" ,"ExtendedConversations"],
+	"OptionallyDependsOn": 
+		[
+			"ColourfulFlashPoints"
+		]
+		,
     "ConflictsWith": [],
 	"DataAddendumEntries":[ 
         { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
@@ -16,6 +21,7 @@
 	{ "Type": "CastDef", "Path": "../../XAI Battletech/mergeCast", "ShouldMergeJSON": true },
 	{ "Type": "ChassisDef", "Path": "chassis" },
 	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "VehicleDef", "Path": "newVehicle", "AddToDB": true },
 	{ "Type": "ContractOverride", "Path": "contracts" },
 	{ "Type": "ContractOverride", "Path": "../../MissionControl/overrides/contracts" }, 
 	{ "Type": "LanceDef" , "Path": "lances", "AddToDB": true },

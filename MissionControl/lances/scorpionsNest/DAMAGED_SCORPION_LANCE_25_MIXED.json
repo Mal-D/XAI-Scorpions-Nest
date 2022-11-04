@@ -29,7 +29,7 @@
       }
     },
     { "unitType": "Vehicle",
-      "unitDefId": "vehicledef_SCORPION_LRM",
+      "unitDefId": "vehicledef_SCORPION_LRM-SN",
       "unitExcludedTagSet": {
         "items": []
       },

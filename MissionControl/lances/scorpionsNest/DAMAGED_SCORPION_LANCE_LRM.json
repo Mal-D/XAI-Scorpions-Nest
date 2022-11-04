@@ -13,7 +13,7 @@
   "lanceDifficultyAdjustment": 0,
   "unitSpawnPointOverrideList": [
     { "unitType": "Vehicle",
-      "unitDefId": "vehicledef_SCORPION_LRM",
+      "unitDefId": "vehicledef_SCORPION_LRM-SN",
       "unitExcludedTagSet": {
         "items": []
       },
@@ -29,7 +29,7 @@
       }
     },
     { "unitType": "Vehicle",
-      "unitDefId": "vehicledef_SCORPION_LRM",
+      "unitDefId": "vehicledef_SCORPION_LRM-SN",
       "unitExcludedTagSet": {
         "items": []
       },
@@ -45,7 +45,7 @@
       }
     },
     { "unitType": "Vehicle",
-      "unitDefId": "vehicledef_SCORPION_LRM",
+      "unitDefId": "vehicledef_SCORPION_LRM-SN",
       "unitExcludedTagSet": {
         "items": []
       },
@@ -61,7 +61,7 @@
       }
     },
     { "unitType": "Vehicle",
-    "unitDefId": "vehicledef_SCORPION_LRM",
+    "unitDefId": "vehicledef_SCORPION_LRM-SN",
     "unitExcludedTagSet": {
       "items": []
     },

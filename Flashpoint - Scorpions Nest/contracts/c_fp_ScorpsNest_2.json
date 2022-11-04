@@ -324,7 +324,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_panther_PNT-9R",
+                        "unitDefId" : "mechdef_wolfhound_WLF-1B",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -735,7 +735,7 @@
                         "customUnitName" : "Vandal 8",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_LRM",
+                        "unitDefId" : "vehicledef_SCORPION_LRM-SN",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
