@@ -22,7 +22,15 @@
             ],
             "tagSetSourceFile" : ""
         },
-        "RequirementComparisons" : []
+        "RequirementComparisons" : 
+        [
+            {
+                "obj" : "Reputation.MercenaryReviewBoard",
+                "op" : "GreaterThan",
+                "val" : 200,
+                "valueConstant" : "200"
+            }
+        ]
     },
     "AdditionalRequirements" : [],
     "AdditionalObjects" : [],
