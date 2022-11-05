@@ -10,8 +10,8 @@
     "Enable": true,
     "EnemyLanceCount": 3,
     "EnemyLances": ["DAMAGED_SCORPION_LANCE_25_MIXED","DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_LRM"],
-    "AllyLanceCount": 1,
-    "AllyLances": ["lancedef_scorp_ally_beast_lance"]
+    "AllyLanceCount": 2,
+    "AllyLances": ["lancedef_scorp_ally_beast_lance","SN_SingleOrion"]
   },
   "ExtendedLances": {
     "Enable": false,
