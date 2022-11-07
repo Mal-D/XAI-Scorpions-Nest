@@ -16,14 +16,31 @@
     "salvagePotential" : 8,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
-    "OnContractFailureResults" : [
-        {
-            "typeString" : "System.Int32",
-            "name" : "ScorpCount",
-            "value" : "-8",
-            "set" : false,
-            "valueConstant" : "-8"
-        }
+    "OnContractFailureResults" : [{
+        "Scope" : "Company",
+        "Requirements" : null,
+        "AddedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RemovedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "Stats" : [
+            {
+                "typeString" : "System.Int32",
+                "name" : "ScorpCount",
+                "value" : "-8",
+                "set" : false,
+                "valueConstant" : "-8"
+            }
+        ],
+        "Actions" : [],
+        "ForceEvents" : [],
+        "TemporaryResult" : false,
+        "ResultDuration" : 0
+    }
     ],
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,

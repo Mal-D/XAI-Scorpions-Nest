@@ -16,14 +16,31 @@
     "salvagePotential" : 20,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
-    "OnContractFailureResults" : [
-        {
-            "typeString" : "System.Int32",
-            "name" : "ScorpCount",
-            "value" : "-8",
-            "set" : false,
-            "valueConstant" : "-8"
-        }
+    "OnContractFailureResults" : [{
+        "Scope" : "Company",
+        "Requirements" : null,
+        "AddedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RemovedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "Stats" : [
+            {
+                "typeString" : "System.Int32",
+                "name" : "ScorpCount",
+                "value" : "-8",
+                "set" : false,
+                "valueConstant" : "-8"
+            }
+        ],
+        "Actions" : [],
+        "ForceEvents" : [],
+        "TemporaryResult" : false,
+        "ResultDuration" : 0
+    }
     ],
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
@@ -332,14 +349,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Just follow the Commanders orders and we will get along famously.",
+                    "words" : "Just follow the Commanders orders and you will get along famously.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -839,7 +856,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "",
+                        "unitDefId" : "mechdef_quickdraw_QKD-4G",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

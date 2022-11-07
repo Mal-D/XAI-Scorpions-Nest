@@ -18,13 +18,31 @@
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [
         {
-            "typeString" : "System.Int32",
-            "name" : "ScorpCount",
-            "value" : "-1",
-            "set" : false,
-            "valueConstant" : "-1"
-        }
-    ],
+        "Scope" : "Company",
+        "Requirements" : null,
+        "AddedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RemovedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "Stats" : [
+            {
+                "typeString" : "System.Int32",
+                "name" : "ScorpCount",
+                "value" : "-1",
+                "set" : false,
+                "valueConstant" : "-1"
+            }
+        ],
+        "Actions" : [],
+        "ForceEvents" : [],
+        "TemporaryResult" : false,
+        "ResultDuration" : 0
+    }
+],
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
@@ -501,7 +519,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_wolfhound_WLF-1A",
+                        "unitDefId" : "mechdef_jenner_JR7-D",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

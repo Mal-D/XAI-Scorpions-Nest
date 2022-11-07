@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ScorpsNest_2",
-    "contractName" : "Scorpion's Nest 2",
+    "contractName" : "Scorpion's Nest 2..",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 4,
     "difficultyUIModifier" : 0,
@@ -19,13 +19,32 @@
     "OnContractFailureResults" : 
     [
         {
-            "typeString" : "System.Int32",
-            "name" : "ScorpCount",
-            "value" : "-2",
-            "set" : false,
-            "valueConstant" : "-2"
-        }
-    ],
+        "Scope" : "Company",
+        "Requirements" : null,
+        "AddedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RemovedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "Stats" : [
+            {
+                "typeString" : "System.Int32",
+                "name" : "ScorpCount",
+                "value" : "-2",
+                "set" : false,
+                "valueConstant" : "-2"
+            }
+        ],
+        "Actions" : [],
+        "ForceEvents" : [],
+        "TemporaryResult" : false,
+        "ResultDuration" : 0
+    }
+]
+    ,
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
@@ -291,7 +310,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_quickdraw_QKD-4H",
+                        "unitDefId" : "mechdef_enforcer_ENF-4R",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -357,7 +376,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_vulcan_VL-5T",
+                        "unitDefId" : "mechdef_jenner_JR7-F",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -522,7 +541,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_75"],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -646,7 +665,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -745,7 +764,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_75"],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",

@@ -10,6 +10,9 @@
     "Enable": true,
     "EnemyLanceCount": 3,
     "EnemyLances": ["DAMAGED_SCORPION_LANCE_25_MIXED","DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_LRM"],
+    "UseDialogue": true,
+    "DialogueCastDefId": "castDef_davidW",
+    "Dialogue": "And still you come... is there no end to your incompetance?",
     "AllyLanceCount": 1,
     "AllyLances": ["lancedef_scorp_ally_beast_lance"]
   },
