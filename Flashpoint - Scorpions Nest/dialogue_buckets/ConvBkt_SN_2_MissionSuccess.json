@@ -34,7 +34,7 @@
 			"revealRadius" : -1
 		},
 		{
-			"words" : "Alas my friend, being this close to the border all the first line units are garrisoned to protect Davion Military interests.",
+			"words" : "Alas my friend, all the first line units are garrisoned to protect Davion interests with the Pleiades Cluster.",
 			"wordsColor" : {
 				"r" : 1,
 				"g" : 1,
@@ -50,7 +50,7 @@
 			"revealRadius" : -1
 		},
 		{
-			"words" : "A <i>Jenner</i> against one tank is fine but the number we are seeing here is cutting it a bit fine.",
+			"words" : "Light 'Mechs against one tank is fine but the number we are seeing here is cutting it a bit fine.",
 			"wordsColor" : {
 				"r" : 1,
 				"g" : 1,

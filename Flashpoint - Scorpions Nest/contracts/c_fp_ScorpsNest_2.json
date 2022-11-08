@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Helmar Valasek wants to spread his influence and setup shop here on Merope. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Destroy them Commander.",
+    "shortDescription" : "Helmar Valasek is using Wilson's Hussars to spread his influence and setup shop here on Merope. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Destroy them Commander.",
     "longDescription" : "Commander {Commander.LastName}, this sandy hellhole will be the graveyard of all those who plan to plunder from the Federated Suns.",
     "salvagePotential" : 8,
     "requirementList" : [],

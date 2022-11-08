@@ -694,7 +694,7 @@
                                 "obj" : "ScorpCount",
                                 "op" : "LessThanOrEqual",
                                 "val" : 2,
-                                "valueConstant" : "3"
+                                "valueConstant" : "2"
                             }
                         ]
                     },
@@ -742,7 +742,7 @@
                                 "obj" : "ScorpCount",
                                 "op" : "LessThanOrEqual",
                                 "val" : 8,
-                                "valueConstant" : "6"
+                                "valueConstant" : "8"
                             }
                         ]
                     },
