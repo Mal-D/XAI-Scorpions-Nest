@@ -2,7 +2,6 @@
 Scorpion's Nest Git Repo
 This is a Mod for the Battletech game by HBS and required the folloing DLC's and version
 
-https://user-images.githubusercontent.com/65275210/200731503-778f96a4-d100-4f23-b06c-653655ba7320.png
 
 1. Battletech Game 1.9.1
 2. Flashpoint
