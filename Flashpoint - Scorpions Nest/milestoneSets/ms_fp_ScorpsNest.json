@@ -872,7 +872,13 @@
                         "RequirementComparisons" : [
                             {
                                 "obj" : "ScorpCount",
-                                "op" : "Equal",
+                                "op" : "GreaterThanOrEqual",
+                                "val" : -1,
+                                "valueConstant" : "-1"
+                            },
+                            {
+                                "obj" : "ScorpCount",
+                                "op" : "LessThanOrEqual", 
                                 "val" : 0,
                                 "valueConstant" : "0"
                             }
