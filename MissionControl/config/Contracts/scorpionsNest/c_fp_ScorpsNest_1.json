@@ -9,7 +9,7 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 1,
-    "EnemyLances": ["DAMAGED_SCORPION_LANCE_50"],
+    "EnemyLances": ["DAMAGED_SCORPION_LANCE_75"],
     "AllyLanceCount": 0,
     "AllyLances": []
   },

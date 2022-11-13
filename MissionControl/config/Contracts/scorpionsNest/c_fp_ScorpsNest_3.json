@@ -9,7 +9,7 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 2,
-    "EnemyLances": ["DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_25_MIXED"],
+    "EnemyLances": ["DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_50_MIXED"],
     "UseDialogue": true,
     "DialogueCastDefId": "castDef_davidW",
     "Dialogue": "Don't think that bringing more lambs to the slaughter will slacken our resolve. We're inside the city and we're not leaving without that for which we came.",

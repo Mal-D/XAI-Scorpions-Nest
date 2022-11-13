@@ -8,8 +8,8 @@
   },
   "AdditionalLances": {
     "Enable": true,
-    "EnemyLanceCount": 3,
-    "EnemyLances": ["DAMAGED_SCORPION_LANCE_25_MIXED","DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_LRM"],
+    "EnemyLanceCount": 2,
+    "EnemyLances": ["DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_LRM"],
     "UseDialogue": true,
     "DialogueCastDefId": "castDef_davidW",
     "Dialogue": "And still you come... is there no end to your incompetance?",

@@ -594,10 +594,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "f46b3021-803a-41ed-87e0-1b8cb86663b8"
                         },
-                        "customUnitName" : "Vandal 4",
-                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
-                        "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_ML",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -607,10 +607,10 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : [""],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -652,7 +652,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName" : "Vandal 5",
+                        "customUnitName" : "Vandal 4",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCORPION_ML",
@@ -685,7 +685,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
-                        "customUnitName" : "Vandal 6",
+                        "customUnitName" : "Vandal 5",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCORPION",
@@ -718,7 +718,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "5a7f08f5-3ceb-467e-b857-b3fc1874d016"
                         },
-                        "customUnitName" : "Vandal 7",
+                        "customUnitName" : "Vandal 6",
                         "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCORPION",
@@ -751,10 +751,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "938ab06b-304b-4f45-ba86-abcaa0fe01c5"
                         },
-                        "customUnitName" : "Vandal 8",
-                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
-                        "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCORPION_LRM-SN",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "-SN",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -764,10 +764,10 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : [""],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d4_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

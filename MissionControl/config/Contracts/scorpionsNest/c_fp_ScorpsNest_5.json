@@ -8,8 +8,8 @@
   },
   "AdditionalLances": {
     "Enable": true,
-    "EnemyLanceCount": 3,
-    "EnemyLances": ["DAMAGED_SCORPION_LANCE_25_MIXED","DAMAGED_SCORPION_LANCE_50","DAMAGED_SCORPION_LANCE_LRM"],
+    "EnemyLanceCount": 2,
+    "EnemyLances": ["DAMAGED_SCORPION_LANCE_25_MIXED","DAMAGED_SCORPION_LANCE_LRM"],
     "UseDialogue": true,
     "DialogueCastDefId": "castDef_senakiY",
     "Dialogue": "Lady Cunningham, the damage my honorless sibling has done to both my family and those who have adopted an orphan as their own, will be washed only by blood.",
