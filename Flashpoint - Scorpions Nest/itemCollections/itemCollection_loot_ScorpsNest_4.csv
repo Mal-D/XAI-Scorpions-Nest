@@ -1,5 +1,5 @@
-itemCollection_loot_ScorpsNest_4,,Heavy BattleMech,This payment include one of the Dragon's best.
+itemCollection_loot_ScorpsNest_4,,Heavy BattleMech,This payment include one of the best Heavy 'Mechs.
 mechdef_quickdraw_QKD-4G,Mech,1,1
-Weapon_COIL_COIL-M_0-STOCK,Weapon,2,1
+Weapon_Laser_MediumLaserPulse_2-Magna400P,Weapon,2,1
 Weapon_Laser_MediumLaser_0-Aberdovey,Weapon,2,1
-itemCollection_table_AdditionalLoot_uncommon,Reference,2,1
+itemCollection_table_AdditionalLoot_uncommon,Reference,4,1

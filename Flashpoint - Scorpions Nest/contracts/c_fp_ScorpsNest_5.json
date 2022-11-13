@@ -1602,7 +1602,7 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "lance_type_turret"
+                        "lancedef_turret_d3_dynamic_lightTurret"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
