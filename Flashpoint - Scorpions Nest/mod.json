@@ -1,44 +1,33 @@
 {
     "Name": "FlashPoint_ScorpionsNest",
-    "Enabled": true,
-	
-    "Version": "1.2.1-XAI-PreRelease",
-
-    "Author": "MalD.",
-
-	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "Mission Control" ,"ExtendedConversations"],
-	"OptionallyDependsOn": 
-		[
-			"ColourfulFlashPoints"
-		]
-		,
+    "Enabled": true,	
+    "Version": "1.2.2-XAI-PreRelease",
+    "Author": "MalD",
+	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],
+	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
     "ConflictsWith": [],
-	"DataAddendumEntries":[ 
-        { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
-	],
+	"DataAddendumEntries":[ { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }	],
     "Manifest": [
-	{ "Type": "CastDef", "Path": "cast" },
-	{ "Type": "CastDef", "Path": "../../XAI Battletech/mergeCast", "ShouldMergeJSON": true },
-	{ "Type": "ChassisDef", "Path": "chassis" },
-	{ "Type": "MechDef", "Path": "mech" },
-	{ "Type": "VehicleDef", "Path": "newVehicle", "AddToDB": true },
-	{ "Type": "ContractOverride", "Path": "contracts" },
-	{ "Type": "ContractOverride", "Path": "../../MissionControl/overrides/contracts" }, 
-	{ "Type": "LanceDef" , "Path": "lances", "AddToDB": true },
-	{ "Type": "SimGameEventDef", "Path": "events" },	
-	{ "Type": "FactionDef",  "Path": "factions" },
-	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
-	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
-	{ "Type": "FlashpointDef", "Path": "flashpoints" },
-	{ "Type": "HeraldryDef", "Path": "heraldry" },
-	{ "Type": "PilotDef", "Path": "pilot" },
-	{ "Type": "BaseDescriptionDef", "Path": "lore" },
-	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
-	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
-	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
-	{ "Type": "Sprite", "Path": "sprites" },
-	{ "Type": "Texture2D", "Path": "sprites" },
-	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
-	{ "Type": "SimGameStatDescDef", "Path": "simGameStatDesc", "AddToDB": true }
+		{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
+		{ "Type": "SimGameStatDescDef", "Path": "simGameStatDesc", "AddToDB": true },	
+		{ "Type": "VehicleDef", "Path": "newVehicle", "AddToDB": true },
+		{ "Type": "TurretDef", "Path": "Turret" },
+        { "Type": "TurretChassisDef", "Path": "TurretChassis" },	
+		{ "Type": "CastDef", "Path": "cast", "AddToDB": true },
+		{ "Type": "LanceDef" , "Path": "lances", "AddToDB": true },	
+		{ "Type": "ContractOverride", "Path": "contracts" },
+		{ "Type": "SimGameEventDef", "Path": "events" },	
+		{ "Type": "FactionDef",  "Path": "factions" },
+		{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
+		{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
+		{ "Type": "FlashpointDef", "Path": "flashpoints" },
+		{ "Type": "HeraldryDef", "Path": "heraldry" },
+		{ "Type": "PilotDef", "Path": "pilot" },
+		{ "Type": "BaseDescriptionDef", "Path": "lore" },
+		{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+		{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+		{ "Type": "SimGameConversations", "Path": "simGameConversations" },
+		{ "Type": "Sprite", "Path": "sprites" },
+		{ "Type": "Texture2D", "Path": "sprites" }
 	]
 }

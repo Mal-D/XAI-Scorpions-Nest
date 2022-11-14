@@ -2,11 +2,11 @@
     "Description" : {
         "Id" : "event_co_Intro_ScorpsNest",
         "Name" : "The Scorpion's Nest.",
-        "Details" : "A Tactical Tank Battle. As Access to the Galaxy is expanding so are the opportunities to travel, go to wonderful and exotic places and melt metal. The Flashpoint 'Scorpion's Nest' was inspired by the recent unearthing of a cache of late 20th century Terran publications.\r\n\r\nThe inspiration comes from a Battletech scenario designed to introduce new players to the mechanics of BattleTech:\r\n\r\n\"The Scorpions Nest\"",
+        "Details" : "A Tactical Tank Battle. As Access to the Galaxy is expanding so are the opportunities to travel, go to wonderful and exotic places and melt metal. The Flashpoint 'Scorpion's Nest' was inspired by the recent unearthing of a cache of late 20th century Terran publications.\r\n\r\n Welcome to: \r\n\r\n\"<b>The Scorpions Nest</b>\"",
         "Icon" : "uixTxrSpot_ScorpionsNest.png"
     },
     "Scope" : "Company",
-    "Weight" : 500,
+    "Weight" : 1000,
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {

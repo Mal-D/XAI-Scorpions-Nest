@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ScorpsNest_3",
-    "contractName" : "Scorpion's Nest Three...",
+    "contractName" : "Scorpion's Nest Three",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 5,
     "difficultyUIModifier" : 0,
@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Local militia have managed to halt the incursion of these pirates. If the dome comes under attack then hundereds of thousands of Fedeartion citizens will be in danger. We have some milita 'Mech units on standby. Join up with them and eliminate the threat.",
+    "shortDescription" : "Local militia have managed to halt the incursion of these pirates. If the dome comes under attack then hundreds of thousands of Federation citizens will be in danger. We have some militia 'Mech units on standby. Join up with them and eliminate the threat.",
     "longDescription" : "Commander {Commander.LastName}, You need to clear these quickly to ensure the processing infrastructure is not put at further risk.",
     "salvagePotential" : 8,
     "requirementList" : [],
@@ -191,7 +191,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Good hunting, Commander. Oliveira out.",
+                    "words" : "Good hunting, Commander. Olivera out.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -232,7 +232,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Just make sure the payment is comensurate with the effort being supplied to clear your 'little embarrasment'.",
+                    "words" : "Just make sure the payment is commensurate with the effort being supplied to clear your 'little embarrassment'.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

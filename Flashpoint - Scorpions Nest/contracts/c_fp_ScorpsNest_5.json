@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "We've just detected multiple {TEAM_TAR.FactionDef.Demonym} Tank lances enroute to our Manufacturing facility. The Hussars are stepping up their attack and cannot be allowed to loot the destroyed buildings.",
-    "longDescription" : "This will be a challenge Commander. Get the escorts to the building Defence Turrets to help.",
+    "shortDescription" : "We've just detected multiple {TEAM_TAR.FactionDef.Demonym} Tank lances en-route to our Manufacturing facility. The Hussars are stepping up their attack and cannot be allowed to loot the destroyed buildings.",
+    "longDescription" : "This will be a challenge Commander. Get the escorts to the building Defense Turrets to help.",
     "salvagePotential" : 20,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
@@ -489,7 +489,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Seems the Governor was successful with his 'negotations' and convinced them to choose between one of the two evils.",
+                    "words" : "The Governer's 'negotiations' have borne fruit Commander. The vehicle drivers seem to have chosen the better of two evils.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -505,7 +505,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "The Turrets are powering up now. The vehiles will scatter and provide support.",
+                    "words" : "The Turrets are powering up now. The vehicles will scatter and provide support.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -516,6 +516,22 @@
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "3560382a-c082-4a0b-8cab-8e6327b74cce",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Not again... seems our employer has left us hanging again. Hussars, take out the turrets or this is not going to end well for us!",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_davidW",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -537,7 +553,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_DariusDefault",
+                   "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -719,7 +735,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "The technicians are moaning something about pay and conditions. I'm organising it now. Keep the enemy away from that base.",
+                    "words" : "The drivers are moaning something about pay and conditions. I'm organising it now. Just keep the enemy away from that base!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -761,7 +777,23 @@
                     "selectedCastDefId" : "castDef_AlexandriaC",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
+                    "cameraFocusGuid" : "f11631eb-034f-4d16-8f4f-2599481976ff",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Hussars, quickly, Intercept those vehicles. We will be up to our neck in it if those turrets come online.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_davidW",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -999,11 +1031,9 @@
                     "EncounterObjectGuid" : "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e"
                 },
                 "name" : "Lance_Escort",
-                "lanceDefId" : "Tagged",
+                "lanceDefId" : "Manual",
                 "lanceTagSet" : {
-                    "items" : [
-                        "lance_type_convoy"
-                    ],
+                    "items" : [],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
@@ -1026,7 +1056,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "vehicledef_APC_Wheeled_SRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1059,7 +1089,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "vehicledef_APC_Wheeled_SRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1114,7 +1144,7 @@
                 },
                 "spawnEffectTags" : {
                     "items" : [
-                        "spawn_poorly_maintained_50"
+                        ""
                     ],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
@@ -1140,7 +1170,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : ["spawn_poorly_maintained_25"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -1193,10 +1223,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "0b168027-919d-4d87-ae88-853711e26b67"
                         },
-                        "customUnitName" : "",
-                        "customHeraldryDefId" : "",
-                        "unitType" : "",
-                        "unitDefId" : "",
+                        "customUnitName" : "Vandal Leader",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
+                        "unitType" : "Vehicle",
+                        "unitDefId" : "vehicledef_SCORPION_LBX",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1209,7 +1239,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1228,8 +1258,8 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "",
-                        "unitDefId" : "",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechDef_None",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1299,7 +1329,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : ["spawn_poorly_maintained_25"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -1332,7 +1362,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : ["spawn_poorly_maintained_25"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -1352,10 +1382,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "9bdc93cb-1cbd-408e-afa0-dbb7cd47d6da"
                         },
-                        "customUnitName" : "",
-                        "customHeraldryDefId" : "",
-                        "unitType" : "",
-                        "unitDefId" : "",
+                        "customUnitName" : "Vandal Charlie",
+                        "customHeraldryDefId" : "heraldrydef_wilsonsHussars",
+                        "unitType" : "Vehicle",
+                        "unitDefId" : "vehicledef_SCORPION",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1365,7 +1395,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [""],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -1387,8 +1417,8 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "",
-                        "unitDefId" : "",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechDef_None",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1456,7 +1486,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_75"],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -1522,7 +1552,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_75"],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d3_gunner",
@@ -1591,7 +1621,7 @@
         },
         "teamGuid" : "61612bb3-abf9-4586-952a-0559fa9dcd75",
         "teamName" : "NeutralToAllTeam",
-        "faction" : "INVALID_UNSET",
+        "faction" : "HouseCunningham",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
@@ -1599,11 +1629,9 @@
                     "EncounterObjectGuid" : "f11631eb-034f-4d16-8f4f-2599481976ff"
                 },
                 "name" : "Lance_Neutral_BaseTurrets",
-                "lanceDefId" : "Tagged",
+                "lanceDefId" : "Manual",
                 "lanceTagSet" : {
-                    "items" : [
-                        "lancedef_turret_d3_dynamic_lightTurret"
-                    ],
+                    "items" : [],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
@@ -1624,9 +1652,9 @@
                             "EncounterObjectGuid" : "4b9a4506-105a-48d1-b1e6-dde99edd6439"
                         },
                         "customUnitName" : "T-1",
-                        "customHeraldryDefId" : "heraldrydef_davion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1657,9 +1685,9 @@
                             "EncounterObjectGuid" : "dcfc1ad6-3fdf-42c6-8ae9-e7afa2c5a42b"
                         },
                         "customUnitName" : "T-2",
-                        "customHeraldryDefId" : "heraldrydef_davion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1690,9 +1718,9 @@
                             "EncounterObjectGuid" : "a76da3ec-a28a-4d59-ab63-1d175407f7f6"
                         },
                         "customUnitName" : "T-3",
-                        "customHeraldryDefId" : "heraldrydef_davion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "turretdef_Light_LRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1723,9 +1751,9 @@
                             "EncounterObjectGuid" : "d328624a-0615-4dcd-b9e0-f73b2031afbf"
                         },
                         "customUnitName" : "T-4",
-                        "customHeraldryDefId" : "heraldrydef_davion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "turretdef_Light_Shredder",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1756,9 +1784,9 @@
                             "EncounterObjectGuid" : "1fc0067d-8962-446b-83df-73edca453dcc"
                         },
                         "customUnitName" : "T-5",
-                        "customHeraldryDefId" : "heraldrydef_davion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1789,9 +1817,9 @@
                             "EncounterObjectGuid" : "bf45e39e-3152-46c6-83db-28cf0557efc0"
                         },
                         "customUnitName" : "T-6",
-                        "customHeraldryDefId" : "heraldrydef_davion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1821,10 +1849,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "90aa383e-cb0d-4620-8236-0c2fd7a87da3"
                         },
-                        "customUnitName" : "T-7",
-                        "customHeraldryDefId" : "heraldrydef_davion",
-                        "unitType" : "Turret",
-                        "unitDefId" : "UseLance",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

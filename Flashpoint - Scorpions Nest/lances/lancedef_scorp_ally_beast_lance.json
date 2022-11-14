@@ -16,9 +16,9 @@
    "LanceUnits" : [
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_kintaro_KTO-19",
+         "unitId" : "mechdef_enforcer_ENF-3R",
          
-         "pilotId" : "pilot_d8_gunner",
+         "pilotId" : "pilot_d5_gunner",
 
          "unitTagSet" : null,
          "excludedUnitTagSet" : null,
@@ -51,7 +51,7 @@
          "unitType" : "Mech",
          "unitId" : "mechdef_wolfhound_WLF-1B",
          
-         "pilotId" : "pilot_d3_gunner",
+         "pilotId" : "pilot_d5_gunner",
 
          "unitTagSet" : null,
          "excludedUnitTagSet" : null,

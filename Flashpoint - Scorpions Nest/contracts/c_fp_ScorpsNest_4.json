@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ScorpsNest_4",
-    "contractName" : "Scorpion's Nest 4",
+    "contractName" : "Scorpion's Nest Four",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 6,
     "difficultyUIModifier" : 0,
@@ -208,7 +208,7 @@
                 }
                 ,
                 {
-                    "words" : "I would rather retun you to your family in one piece. Advance and engage. Let's see about wrapping this up without losing anyone.",
+                    "words" : "I would rather return you to your family in one piece. Advance and engage. Let's see about wrapping this up without losing anyone.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
