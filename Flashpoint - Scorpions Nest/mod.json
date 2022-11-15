@@ -1,7 +1,7 @@
 {
     "Name": "FlashPoint_ScorpionsNest",
     "Enabled": true,	
-    "Version": "1.2.2-XAI-PreRelease",
+    "Version": "1.2.3-XAI-PreRelease",
     "Author": "MalD",
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],
 	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
