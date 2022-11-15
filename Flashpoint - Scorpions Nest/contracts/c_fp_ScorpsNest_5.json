@@ -382,7 +382,7 @@
                 }
                 ,
                 {
-                    "words" : "I would rather retun you to your family in one piece. Advance and engage. Let's see about wrapping this up without losing anyone.",
+                    "words" : "I would rather return you to your family in one piece. Advance and engage. Let's see about wrapping this up without losing anyone.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -489,7 +489,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "The Governer's 'negotiations' have borne fruit Commander. The vehicle drivers seem to have chosen the better of two evils.",
+                    "words" : "The Governor's 'negotiations' have borne fruit Commander. The vehicle drivers seem to have chosen the better of two evils.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -735,7 +735,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "The drivers are moaning something about pay and conditions. I'm organising it now. Just keep the enemy away from that base!",
+                    "words" : "The drivers are moaning something about pay and conditions. I'm organizing it now. Just keep the enemy away from that base!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -804,9 +804,9 @@
     "extractionOverrideList" : [],
     "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : "",
-    "disableNegotations" : true,
+    "disableNegotations" : false,
     "disableLanceConfiguration" : false,
-    "disableCancelButton" : true,
+    "disableCancelButton" : false,
     "disableAfterAction" : false,
     "contractRewardOverride" : -1,
     "travelOnly" : false,

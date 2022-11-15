@@ -18,7 +18,7 @@
          "unitType" : "Mech",
          "unitId" : "mechdef_enforcer_ENF-3R",
          
-         "pilotId" : "pilot_d5_gunner",
+         "pilotId" : "pilot_d6_sharpshooter",
 
          "unitTagSet" : null,
          "excludedUnitTagSet" : null,
@@ -40,7 +40,7 @@
          "unitType" : "Mech",
          "unitId" : "mechdef_griffin_GRF-1N",
          
-         "pilotId" : "pilot_d5_gunner",
+         "pilotId" : "pilot_d6_scout",
 
          "unitTagSet" : null,
          "excludedUnitTagSet" : null,
@@ -49,7 +49,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_wolfhound_WLF-1B",
+         "unitId" : "mechdef_wolfhound_WLF-1A",
          
          "pilotId" : "pilot_d5_gunner",
 

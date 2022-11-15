@@ -177,7 +177,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Good hunting, Commander. Oliveira out.",
+                    "words" : "Good hunting, Commander. Olivera out.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -250,7 +250,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Just seems a waste throwing your 'Mechs in the grinder where we could do this much more efficently.",
+                    "words" : "Just seems a waste throwing your 'Mechs in the grinder where we could do this much more efficiently.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -420,7 +420,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_cicada_CDA-3C",
+                        "unitDefId" : "mechdef_valkyrie_VLK-QA",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -486,7 +486,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_wolfhound_WLF-1B",
+                        "unitDefId" : "mechdef_wolfhound_WLF-1A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

@@ -343,7 +343,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_wolfhound_WLF-1B",
+                        "unitDefId" : "mechdef_firestarter_FS9-K",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

@@ -322,7 +322,7 @@
     "overrideAutoCompleteDialogueId" : null,
     "disableNegotations" : false,
     "disableLanceConfiguration" : false,
-    "disableCancelButton" : true,
+    "disableCancelButton" : false,
     "disableAfterAction" : false,
     "contractRewardOverride" : -1,
     "travelOnly" : false,
@@ -437,7 +437,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_wolfhound_WLF-1B",
+                        "unitDefId" : "mechdef_wolfhound_WLF-1",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -470,7 +470,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_wolfhound_WLF-1B",
+                        "unitDefId" : "mechdef_firestarter_FS9-K",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

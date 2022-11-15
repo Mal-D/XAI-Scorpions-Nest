@@ -18,7 +18,7 @@
          "unitType" : "Mech",
          "unitId" : "mechdef_champion_CHP-2N",
          
-         "pilotId" : "pilot_d5_gunner",
+         "pilotId" : "pilot_d6_striker",
 
          "unitTagSet" : null,
          "excludedUnitTagSet" : null,
@@ -38,7 +38,7 @@
       },
       {
          "unitType" : "Mech",
-         "unitId" : "mechdef_wolfhound_WLF-1B",
+         "unitId" : "mechdef_wolfhound_WLF-1A",
          
          "pilotId" : "pilot_d5_gunner",
 
