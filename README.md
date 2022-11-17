@@ -1,5 +1,12 @@
-# Scorpion's Nest
-Scorpion's Nest Git Repo
+# Scorpions Nest
+Scorpion's Nest 
+
+Huge Mentions and many thanks to @Xeryx for the invitation to convert one of my favourite Flashpoints to his XAI Battletech 3025. Without his constant foot on the pedal and fastidious eye for detail, would not have turned out as well as it has or as timely.
+
+Many thanks to @CWolf for his amazing tools that add so much life to the game.
+
+My thanks and gratitude to my amazing and wonderful Wife who gives me the freedom to commit as much time as was needed to complete this Flashpoint conversion.  
+
 This is a Mod for the Battletech game by HBS and required the following DLC's and version
 
 
