@@ -1,53 +1,53 @@
 {
-    "identifier" : "ConvBkt_SN_1_AmbushWarning",
-    "contents" : [
+	"identifier": "ConvBkt_SN_1_AmbushWarning",
+	"contents": [
 		{
-			"words" : "Watch out Commander {Commander.LastName}, There seems to be a few more than anticipated.",
-			"wordsColor" : {
-				"r" : 1,
-				"g" : 1,
-				"b" : 1,
-				"a" : 1
+			"words": "Watch out Commander, There seems to be a few more than anticipated.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
 			},
-			"selectedCastDefId" : "castDef_AlexandriaC",
-			"emote" : "Default",
-			"audioName" : "NONE",
-			"cameraFocusGuid" : "",
-			"cameraDistance" : "Far",
-			"cameraHeight" : "Default",
-			"revealRadius" : -1
+			"selectedCastDefId": "castDef_AlexandriaC",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
 		},
 		{
-			"words" : "Our sensors confirm Commander. More of the same.",
-			"wordsColor" : {
-				"r" : 1,
-				"g" : 1,
-				"b" : 1,
-				"a" : 1
+			"words": "Our sensors confirm Commander. More of the same.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
 			},
-			"selectedCastDefId" : "castDef_FarahDefault",
-			"emote" : "Default",
-			"audioName" : "NONE",
-			"cameraFocusGuid" : "",
-			"cameraDistance" : "Far",
-			"cameraHeight" : "Default",
-			"revealRadius" : -1
+			"selectedCastDefId": "castDef_FarahDefault",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
 		},
 		{
-			"words" : "Don't be complacent out there. Let's get in a wrap it up.",
-			"wordsColor" : {
-				"r" : 1,
-				"g" : 1,
-				"b" : 1,
-				"a" : 1
+			"words": "Don't be complacent out there. Let's get in a wrap it up.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
 			},
-			"selectedCastDefId" : "castDef_DariusDefault",
-			"emote" : "Default",
-			"audioName" : "NONE",
-			"cameraFocusGuid" : "cb50e1e4-aa0c-49b2-bd2e-5339c78dafb5",
-			"cameraDistance" : "Far",
-			"cameraHeight" : "Default",
-			"revealRadius" : -1
+			"selectedCastDefId": "castDef_DariusDefault",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "cb50e1e4-aa0c-49b2-bd2e-5339c78dafb5",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
 		}
 	]
 }

@@ -1,46 +1,46 @@
 {
-    "Description" : {
-        "Id" : "SN_SingleOrion",
-        "Name" : "SingleOrion",
-        "Details" : "Single Unit Lance",
-        "Icon" : "",
-        "Cost" : 0,
-        "Rarity" : 0,
-        "Purchasable" : false
-    },
-    "Difficulty" : 1,
-    "LanceTags" : {
-        "items" : [
-            "lance_type_mech"
-        ],
-        "tagSetSourceFile" : "Tags/LanceTags"
-    },
-    "LanceUnits" : [
-        {
-            "unitType" : "Mech",
-            "unitId" : "mechdef_orion_ON1-K",
-            "unitSimGameID" : null,
-            "pilotId" : "pilot_SN_senakiY",
-            "pilotSimGameID" : null,
-            "unitTagSet" : {
-                "items" : [
-                    "unit_mech"
-                ],
-                "tagSetSourceFile" : "Tags/UnitTags"
-            },
-            "excludedUnitTagSet" : {
-                "items" : [],
-                "tagSetSourceFile" : "Tags/UnitTags"
-            },
-            "pilotTagSet" : {
-                "items" : [],
-                "tagSetSourceFile" : "Tags/PilotTags"
-            },
-            "excludedPilotTagSet" : {
-                "items" : null,
-                "tagSetSourceFile" : "Tags/PilotTags"
-            },
-            "locked" : false
-        }
-    ]
+	"Description": {
+		"Id": "SN_SingleOrion",
+		"Name": "SingleOrion",
+		"Details": "Single Unit Lance",
+		"Icon": "",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Difficulty": 1,
+	"LanceTags": {
+		"items": [
+			"lance_type_mech"
+		],
+		"tagSetSourceFile": "Tags/LanceTags"
+	},
+	"LanceUnits": [
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_orion_ON1-K",
+			"unitSimGameID": null,
+			"pilotId": "pilot_SN_senakiY",
+			"pilotSimGameID": null,
+			"unitTagSet": {
+				"items": [
+					"unit_mech"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"locked": false
+		}
+	]
 }

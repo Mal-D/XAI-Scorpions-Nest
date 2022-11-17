@@ -1,69 +1,69 @@
 {
-    "identifier" : "ConvBkt_SN_2_MissionFailure",
-    "contents" : [
+	"identifier": "ConvBkt_SN_2_MissionFailure",
+	"contents": [
 		{
-		"words" : "Well, that was a poor showing Commander and you won't get paid with another debacle like that.",
-		"wordsColor" : {
-			"r" : 1,
-			"g" : 1,
-			"b" : 1,
-			"a" : 1
+			"words": "Well, that was a poor showing Commander and you won't get paid with another debacle like that.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"selectedCastDefId": "castDef_AlexandriaC",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
 		},
-		"selectedCastDefId" : "castDef_AlexandriaC",
-		"emote" : "Default",
-		"audioName" : "NONE",
-		"cameraFocusGuid" : "",
-		"cameraDistance" : "Far",
-		"cameraHeight" : "Default",
-		"revealRadius" : -1
-	},
-	{
-		"words" : "<i>Jenners</i> against one tank is fine. How about something more substantial next time.",
-		"wordsColor" : {
-			"r" : 1,
-			"g" : 1,
-			"b" : 1,
-			"a" : 1
+		{
+			"words": "<i>Jenners</i> against one tank is fine. How about something more substantial next time.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"selectedCastDefId": "castDef_YangDefault",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
 		},
-		"selectedCastDefId" : "castDef_YangDefault",
-		"emote" : "Default",
-		"audioName" : "NONE",
-		"cameraFocusGuid" : "",
-		"cameraDistance" : "Far",
-		"cameraHeight" : "Default",
-		"revealRadius" : -1
-	},
-	{
-		"words" : "Alas, being this close to the boarder all the first line units are garrisoned to protect Davion Military interests.",
-		"wordsColor" : {
-			"r" : 1,
-			"g" : 1,
-			"b" : 1,
-			"a" : 1
+		{
+			"words": "Alas, being this close to the boarder all the first line units are garrisoned to protect Davion Military interests.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"selectedCastDefId": "castDef_AlexandriaC",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
 		},
-		"selectedCastDefId" : "castDef_AlexandriaC",
-		"emote" : "Default",
-		"audioName" : "NONE",
-		"cameraFocusGuid" : "",
-		"cameraDistance" : "Far",
-		"cameraHeight" : "Default",
-		"revealRadius" : -1
-	},
-	{
-		"words" : "Lady Cunningham, you might think quality MechWarriors are found on trees? We're here because you don't have any and 'Mechs won't run themselves.",
-		"wordsColor" : {
-			"r" : 1,
-			"g" : 1,
-			"b" : 1,
-			"a" : 1
-		},
-		"selectedCastDefId" : "castDef_DariusDefault",
-		"emote" : "Default",
-		"audioName" : "NONE",
-		"cameraFocusGuid" : "",
-		"cameraDistance" : "Far",
-		"cameraHeight" : "Default",
-		"revealRadius" : -1
-	}
-]
+		{
+			"words": "Lady Cunningham, you might think quality MechWarriors are found on trees? We're here because you don't have any and 'Mechs won't run themselves.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"selectedCastDefId": "castDef_DariusDefault",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
+		}
+	]
 }

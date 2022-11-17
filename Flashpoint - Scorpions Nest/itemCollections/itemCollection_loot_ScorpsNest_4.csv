@@ -1,5 +1,5 @@
 itemCollection_loot_ScorpsNest_4,,Heavy BattleMech,This payment include one of the best Heavy 'Mechs.
 mechdef_quickdraw_QKD-4G,Mech,1,1
 Weapon_Laser_MediumLaserPulse_2-Magna400P,Weapon,2,1
-Weapon_Laser_MediumLaser_0-Aberdovey,Weapon,2,1
-itemCollection_table_AdditionalLoot_uncommon,Reference,4,1
+Weapon_Laser_SmallLaserPulse_1-Maxell,Weapon,2,1
+itemCollection_Shop_Faction_Davion,Reference,4,1

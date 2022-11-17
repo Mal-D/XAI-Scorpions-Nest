@@ -1,274 +1,279 @@
 {
-    "Description" : {
-        "Id" : "fe_event_Load_ScorpsNest",
-        "Name" : "Reminder - The Scorpion's Nest.",
-        "Details" : "This is your friendly reminder.\r\n\r\nWould you like to play 'The Scorpion's Nest'?",
-        "Icon" : "uixTxrSpot_ScorpionsNest.png"
-    },
-    "Scope" : "Company",
-    "Weight" : 1,
-    "Requirements" : {
-        "Scope" : "Company",
-        "RequirementTags" : {
-            "items" : [],
-            "tagSetSourceFile" : ""
-        },
-        "ExclusionTags" : {
-            "items" : [
-                "fe_event_Load_ScorpsNest_cancel"
-            ],
-            "tagSetSourceFile" : ""
-        },
-        "RequirementComparisons" : []
-    },
-    "AdditionalRequirements" : [],
-    "AdditionalObjects" : [],
-    "Options" : [
-        {
-            "Description" : {
-                "Id" : "outcome_0",
-                "Name" : "Play Scorpion's Nest",
-                "Details" : "The Scorpion's Nest",
-                "Icon" : null
-            },
-            "RequirementList" : [],
-            "ResultSets" : [
-                {
-                    "Description" : {
-                        "Id" : "outcome_0_0",
-                        "Name" : "Play Scorpion's Nest",
-                        "Details" : "Start - The Scorpion's Nest",
-                        "Icon" : null
-                    },
-                    "Weight" : 100,
-                    "Results" : [
-                        {
-                            "Scope" : "Company",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "items" : [],
-                                "tagSetSourceFile" : ""
-                            },
-                            "RemovedTags" : {
-                                "items" : [],
-                                "tagSetSourceFile" : ""
-                            },
-                            "Stats" : [],
-                            "Actions" : [
-                                {
-                                    "Type" : "System_AddFlashpoint",
-                                    "value" : "fp_ScorpsNest",
-                                    "valueConstant" : null,
-                                    "additionalValues" : [
-                                        "starsystemdef_Merope"
-                                    ]
-                                },
-                                {
-                                    "Type" : "System_ForceDropshipRoom",
-                                    "value" : "Ship",
-                                    "valueConstant" : null,
-                                    "additionalValues" : [
-                                        null
-                                    ]
-                                }
-                            ],
-                            "ForceEvents" : [],
-                            "TemporaryResult" : false,
-                            "ResultDuration" : 1
-                        },
-                        {
-                            "Scope" : "Company",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "items" : [
-                                    "fe_event_Load_ScorpsNest_cancel","fp_Scorp_Ready"
-                                ],
-                                "tagSetSourceFile" : ""
-                            },
-                            "RemovedTags" : {
-                                "items" : [],
-                                "tagSetSourceFile" : ""
-                            },
-                            "Stats" : null,
-                            "Actions" : null,
-                            "ForceEvents" : null,
-                            "TemporaryResult" : false,
-                            "ResultDuration" : 0
-                        }
-                    ]
-                }
-            ],
-            "Requirements" : {
-                "Scope" : "Company",
-                "RequirementTags" : {
-                    "items" : [],
-                    "tagSetSourceFile" : ""
-                },
-                "ExclusionTags" : {
-                    "items" : [],
-                    "tagSetSourceFile" : ""
-                },
-                "RequirementComparisons" : []
-            }
-        },
-        {
-            "Description" : {
-                "Id" : "outcome_1",
-                "Name" : "Not just yet",
-                "Details" : "Sorry, but I am still not available to play.",
-                "Icon" : null
-            },
-            "RequirementList" : [],
-            "ResultSets" : [
-                {
-                    "Description" : {
-                        "Id" : "outcome_1_0",
-                        "Name" : "Not yet Available",
-                        "Details" : "Not yet Available",
-                        "Icon" : null
-                    },
-                    "Weight" : 100,
-                    "Results" : [
-                        {
-                            "Scope" : "Company",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "items" : [],
-                                "tagSetSourceFile" : ""
-                            },
-                            "RemovedTags" : {
-                                "items" : ["fp_Scorp_Ready"],
-                                "tagSetSourceFile" : ""
-                            },
-                            "Stats" : [],
-                            "Actions" : [
-                                {
-                                    "Type" : "System_ForceDropshipRoom",
-                                    "value" : "Ship",
-                                    "valueConstant" : null,
-                                    "additionalValues" : [
-                                        null
-                                    ]
-                                }
-                            ],
-                            "ForceEvents" : [
-                                {
-                                    "Scope" : "Company",
-                                    "EventID" : "fe_event_Load_ScorpsNest",
-                                    "MinDaysWait" : 30,
-                                    "MaxDaysWait" : 30,
-                                    "Probability" : 100,
-                                    "RetainPilot" : false
-                                }
-                            ],
-                            "TemporaryResult" : false,
-                            "ResultDuration" : 1
-                        },
-                        {
-                            "Scope" : "Company",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "items" : [],
-                                "tagSetSourceFile" : ""
-                            },
-                            "RemovedTags" : {
-                                "items" : [],
-                                "tagSetSourceFile" : ""
-                            },
-                            "Stats" : null,
-                            "Actions" : null,
-                            "ForceEvents" : null,
-                            "TemporaryResult" : false,
-                            "ResultDuration" : 0
-                        }
-                    ]
-                }
-            ],
-            "Requirements" : {
-                "Scope" : "Company",
-                "RequirementTags" : {
-                    "items" : [],
-                    "tagSetSourceFile" : ""
-                },
-                "ExclusionTags" : {
-                    "items" : [],
-                    "tagSetSourceFile" : ""
-                },
-                "RequirementComparisons" : []
-            }
-        },
-        {
-            "Description" : {
-                "Id" : "outcome_2",
-                "Name" : "Please stop bugging me.",
-                "Details" : "I am not interested.",
-                "Icon" : null
-            },
-            "RequirementList" : [],
-            "ResultSets" : [
-                {
-                    "Description" : {
-                        "Id" : "outcome_2_0",
-                        "Name" : "No thanks",
-                        "Details" : "Sorry you feel that way.\r\n\r\nIf you wish to play Scorpion's Nest in the future you will need to start another career.",
-                        "Icon" : null
-                    },
-                    "Weight" : 100,
-                    "Results" : [
-                        {
-                            "Scope" : "Company",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "items" : [
-                                    "fp_Scorp_cancel",
-                                    "fp_Scorp_intro_cancel"
-                                ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
-                            },
-                            "RemovedTags" : {
-                                "items" : ["fp_Scorp_Ready"],
-                                "tagSetSourceFile" : ""
-                            },
-                            "Stats" : null,
-                            "Actions" : [
-                                {
-                                    "Type" : "System_ForceDropshipRoom",
-                                    "value" : "Ship",
-                                    "valueConstant" : null,
-                                    "additionalValues" : [
-                                        null
-                                    ]
-                                }
-                            ],
-                            "ForceEvents" : null,
-                            "TemporaryResult" : false,
-                            "ResultDuration" : 0
-                        }
-                    ]
-                }
-            ],
-            "Requirements" : {
-                "Scope" : "Company",
-                "RequirementTags" : {
-                    "items" : [],
-                    "tagSetSourceFile" : ""
-                },
-                "ExclusionTags" : {
-                    "items" : [],
-                    "tagSetSourceFile" : ""
-                },
-                "RequirementComparisons" : []
-            }
-        }
-    ],
-    "PublishState" : "UNPUBLISHED",
-    "ValidationState" : "UNTESTED",
-    "EventType" : "NORMAL",
-    "OneTimeEvent" : false,
-    "Tags" : {
-        "items" : [
-            "BLACKLISTED"
-        ],
-        "tagSetSourceFile" : "tags/EventTags"
-    }
+	"Description": {
+		"Id": "fe_event_Load_ScorpsNest",
+		"Name": "Reminder - The Scorpion's Nest.",
+		"Details": "This is your friendly reminder.\r\n\r\nWould you like to play 'The Scorpion's Nest'?",
+		"Icon": "uixTxrSpot_ScorpionsNest.png"
+	},
+	"Scope": "Company",
+	"Weight": 1,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": [],
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": [
+				"fe_event_Load_ScorpsNest_cancel"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Play Scorpion's Nest",
+				"Details": "The Scorpion's Nest",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Play Scorpion's Nest",
+						"Details": "Start - The Scorpion's Nest",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"Stats": [],
+							"Actions": [
+								{
+									"Type": "System_AddFlashpoint",
+									"value": "fp_ScorpsNest",
+									"valueConstant": null,
+									"additionalValues": [
+										"starsystemdef_Merope"
+									]
+								},
+								{
+									"Type": "System_ForceDropshipRoom",
+									"value": "Ship",
+									"valueConstant": null,
+									"additionalValues": [
+										null
+									]
+								}
+							],
+							"ForceEvents": [],
+							"TemporaryResult": false,
+							"ResultDuration": 1
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"fe_event_Load_ScorpsNest_cancel",
+									"fp_Scorp_Ready"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_1",
+				"Name": "Not just yet",
+				"Details": "Sorry, but I am still not available to play.",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_1_0",
+						"Name": "Not yet Available",
+						"Details": "Not yet Available",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": [
+									"fp_Scorp_Ready"
+								],
+								"tagSetSourceFile": ""
+							},
+							"Stats": [],
+							"Actions": [
+								{
+									"Type": "System_ForceDropshipRoom",
+									"value": "Ship",
+									"valueConstant": null,
+									"additionalValues": [
+										null
+									]
+								}
+							],
+							"ForceEvents": [
+								{
+									"Scope": "Company",
+									"EventID": "fe_event_Load_ScorpsNest",
+									"MinDaysWait": 30,
+									"MaxDaysWait": 30,
+									"Probability": 100,
+									"RetainPilot": false
+								}
+							],
+							"TemporaryResult": false,
+							"ResultDuration": 1
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_2",
+				"Name": "Please stop bugging me.",
+				"Details": "I am not interested.",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_2_0",
+						"Name": "No thanks",
+						"Details": "Sorry you feel that way.\r\n\r\nIf you wish to play Scorpion's Nest in the future you will need to start another career.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"fp_Scorp_cancel",
+									"fp_Scorp_intro_cancel"
+								],
+								"tagSetSourceFile": "Tags/CompanyTags"
+							},
+							"RemovedTags": {
+								"items": [
+									"fp_Scorp_Ready"
+								],
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "System_ForceDropshipRoom",
+									"value": "Ship",
+									"valueConstant": null,
+									"additionalValues": [
+										null
+									]
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "UNPUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL",
+	"OneTimeEvent": false,
+	"Tags": {
+		"items": [
+			"BLACKLISTED"
+		],
+		"tagSetSourceFile": "tags/EventTags"
+	}
 }

@@ -94,7 +94,7 @@
 			"ComponentDefID": "Weapon_MachineGun_MachineGun_1-Mydron",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
-			"HardpointSlot": 2,
+			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{

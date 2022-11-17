@@ -1,62 +1,54 @@
 {
-   "Description" : {
-      "Id" : "lancedef_scorp_ally_beast_lance",
-      "Name" : "Ally Beast Lance",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 1182000,
-      "Rarity" : 0,
-      "Purchasable" : false
-   },
-   "Difficulty" : 6,
-   "LanceTags" : {
-      "items" : [],
-      "tagSetSourceFile" : "Tags/LanceTags"
-   },
-   "LanceUnits" : [
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_enforcer_ENF-3R",
-         
-         "pilotId" : "pilot_d6_sharpshooter",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_phoenixhawk_PXH-1",
-         
-         "pilotId" : "pilot_d8_tactician",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_griffin_GRF-1N",
-         
-         "pilotId" : "pilot_d6_scout",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_wolfhound_WLF-1A",
-         
-         "pilotId" : "pilot_d5_gunner",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      }
-   ]
+	"Description": {
+		"Id": "lancedef_scorp_ally_beast_lance",
+		"Name": "Ally Beast Lance",
+		"Details": "",
+		"Icon": "",
+		"Cost": 1182000,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Difficulty": 6,
+	"LanceTags": {
+		"items": [],
+		"tagSetSourceFile": "Tags/LanceTags"
+	},
+	"LanceUnits": [
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_enforcer_ENF-3R",
+			"pilotId": "pilot_d7_lancer",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_phoenixhawk_PXH-1",
+			"pilotId": "pilot_d8_scout",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_griffin_GRF-1N",
+			"pilotId": "pilot_d6_scout",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_wolfhound_WLF-1A",
+			"pilotId": "pilot_d5_pilot",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		}
+	]
 }

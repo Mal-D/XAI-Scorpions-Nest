@@ -1,64 +1,66 @@
 {
-    "Description" : {
-        "Id" : "fp_ScorpsNest",
-        "Name" : "The Scorpion's Nest",
-        "Details" : "House Cunningham is in need of discression. Wilson's Hussars are being employed to expand Valasek's operation in the Periphery. Giving them the honor of spreading his influence by raiding for water, grain as well as 'Mech and vehicle parts. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Track down these pirates and finish them for good.",
-        "Icon" : "uixTxrSpot_ScorpionsNest.png"
-    },
-    "Weight" : 1,
-    "InternalName" : "ScorpsNest",
-    "PublishState" : "PUBLISHED",
-    "Difficulty" : 6,
-    "Requirements" : [
-        {
-            "Scope" : "Company",
-            "RequirementTags" : {
-                "items" : ["fp_Scorp_Ready"],
-                "tagSetSourceFile" : ""
-            },
-            "ExclusionTags" : {
-                "items" : [
-                    "fp_ScorpsNest_Completed",
-                    "fp_Scorp_cancel"
-                ],
-                "tagSetSourceFile" : "Tags/CompanyTags"
-            },
-            "RequirementComparisons" : []
-        }
-    ],
-    "LocationRequirements" : {
-        "Scope" : "StarSystem",
-        "RequirementTags" : {
-            "items" : [
-                "planet_name_merope"
-            ],
-            "tagSetSourceFile" : "Tags/PlanetTags"
-        },
-        "ExclusionTags" : {
-            "items" : [],
-            "tagSetSourceFile" : ""
-        },
-        "RequirementComparisons" : []
-    },
-    "PotentialEmployers" : [
-        "HouseCunningham"
-    ],
-    "TargetFaction" : "wilsonsHussars",
-    "AllowRefitTime" : true,
-    "FlashpointLength" : "SHORT",
-    "Repeatable" : true,
-    "MilestoneSetID" : "ms_fp_ScorpsNest",
-    "UseAvailableTimeoutOverride" : false,
-    "AvailableTimeout" : 0,
-    "UseInProgressTimeoutOverride" : false,
-    "InProgressTimeout" : 0,
-    "RewardCollectionID" : "itemCollection_loot_ScorpsNest_1",
-    "UnitDropTonnageHint" : "None",
-    "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "Lady Cunningham needs a discrete Mercenary Unit to stop an ambitious operation by Wilson's Hussars to expand the influence of Helmar Valasek.",
-    "FlashpointDescriberCastDefId" : "castDef_AlexandriaC",
-    "Tags" : {
-        "items" : [],
-        "tagSetSourceFile" : "tags/FlashpointTags"
-    }
+	"Description": {
+		"Id": "fp_ScorpsNest",
+		"Name": "The Scorpion's Nest",
+		"Details": "House Cunningham is in need of discretion. Wilson's Hussars are being employed to expand Valasek's operation in the Periphery. Giving them the honor of spreading his influence by raiding for water, grain as well as 'Mech and vehicle parts. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Track down these pirates and finish them for good.",
+		"Icon": "uixTxrSpot_ScorpionsNest.png"
+	},
+	"Weight": 1,
+	"InternalName": "ScorpsNest",
+	"PublishState": "PUBLISHED",
+	"Difficulty": 6,
+	"Requirements": [
+		{
+			"Scope": "Company",
+			"RequirementTags": {
+				"items": [
+					"fp_Scorp_Ready"
+				],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [
+					"fp_ScorpsNest_Completed",
+					"fp_Scorp_cancel"
+				],
+				"tagSetSourceFile": "Tags/CompanyTags"
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"LocationRequirements": {
+		"Scope": "StarSystem",
+		"RequirementTags": {
+			"items": [
+				"planet_name_merope"
+			],
+			"tagSetSourceFile": "Tags/PlanetTags"
+		},
+		"ExclusionTags": {
+			"items": [],
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": []
+	},
+	"PotentialEmployers": [
+		"HouseCunningham"
+	],
+	"TargetFaction": "wilsonsHussars",
+	"AllowRefitTime": true,
+	"FlashpointLength": "SHORT",
+	"Repeatable": true,
+	"MilestoneSetID": "ms_fp_ScorpsNest",
+	"UseAvailableTimeoutOverride": false,
+	"AvailableTimeout": 0,
+	"UseInProgressTimeoutOverride": false,
+	"InProgressTimeout": 0,
+	"RewardCollectionID": "itemCollection_loot_ScorpsNest_1",
+	"UnitDropTonnageHint": "None",
+	"LanceDropTonnageHint": "None",
+	"FlashpointShortDescription": "Lady Cunningham needs a discrete Mercenary Unit to stop an ambitious operation by Wilson's Hussars to expand the influence of Helmar Valasek.",
+	"FlashpointDescriberCastDefId": "castDef_AlexandriaC",
+	"Tags": {
+		"items": [],
+		"tagSetSourceFile": "tags/FlashpointTags"
+	}
 }

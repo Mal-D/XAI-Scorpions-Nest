@@ -1,62 +1,54 @@
 {
-   "Description" : {
-      "Id" : "lancedef_scorp_ally_heavy_lance",
-      "Name" : "Ally Heavy Lance",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 23700000,
-      "Rarity" : 0,
-      "Purchasable" : false
-   },
-   "Difficulty" : 6,
-   "LanceTags" : {
-      "items" : [],
-      "tagSetSourceFile" : "Tags/LanceTags"
-   },
-   "LanceUnits" : [
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_champion_CHP-2N",
-         
-         "pilotId" : "pilot_d6_striker",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_enforcer_ENF-4R",
-         
-         "pilotId" : "pilot_d5_gunner",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_wolfhound_WLF-1A",
-         
-         "pilotId" : "pilot_d5_gunner",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "mechdef_wolfhound_WLF-1A",
-         
-         "pilotId" : "pilot_d3_gunner",
-
-         "unitTagSet" : null,
-         "excludedUnitTagSet" : null,
-         "pilotTagSet" : null,
-         "excludedPilotTagSet" : null
-      }
-   ]
+	"Description": {
+		"Id": "lancedef_scorp_ally_heavy_lance",
+		"Name": "Ally Heavy Lance",
+		"Details": "",
+		"Icon": "",
+		"Cost": 23700000,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Difficulty": 6,
+	"LanceTags": {
+		"items": [],
+		"tagSetSourceFile": "Tags/LanceTags"
+	},
+	"LanceUnits": [
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_champion_CHP-2N",
+			"pilotId": "pilot_d6_striker",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_enforcer_ENF-4R",
+			"pilotId": "pilot_d5_gunner",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_wolfhound_WLF-1A",
+			"pilotId": "pilot_d5_gunner",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_wolfhound_WLF-1A",
+			"pilotId": "pilot_d3_gunner",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		}
+	]
 }

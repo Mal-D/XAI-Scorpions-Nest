@@ -1,17 +1,17 @@
 {
-    "Description": {
-        "Id": "pilot_SN_senakiY",
-        "Name": "senakiY",
-        "FirstName": "Sue",
-        "LastName": "Yasatiaka",
-        "Callsign": "Fang",
-        "Gender": "Female",
-        "factionID": "",
-        "Age": 30,
-        "Details": "Stand in Orion pilot",
-        "Icon": "guiTxrPort_senakiY"
-    },
-    "BaseGunnery": "7",
+	"Description": {
+		"Id": "pilot_SN_senakiY",
+		"Name": "senakiY",
+		"FirstName": "Sue",
+		"LastName": "Yasatiaka",
+		"Callsign": "Fang",
+		"Gender": "Female",
+		"factionID": "",
+		"Age": 30,
+		"Details": "Stand in Orion pilot",
+		"Icon": "guiTxrPort_senakiY"
+	},
+	"BaseGunnery": "5",
 	"BonusGunnery": 0,
 	"BasePiloting": "4",
 	"BonusPiloting": 0,
@@ -28,7 +28,6 @@
 	"Morale": 0,
 	"Voice": "f_overload01",
 	"abilityDefNames": [
-		"TraitDefRefireReduceThree",
 		"TraitDefRefireReduceTwo",
 		"TraitDefRefireReduceOne",
 		"TraitDefCalledShotImprove",
@@ -38,15 +37,13 @@
 		"TraitDefMinRangeReduce30",
 		"AbilityDefG5"
 	],
-    "AIPersonality": "Undefined",
-    "PilotTags": {
-        "items": [
-            "pilot_npc_gunner", "pilot_npc_dynamic", "pilot_npc_d6",
-            "BLACKLISTED",
-            "name_senakiY"
-
-        ],
-        "tagSetSourceFile": ""
-    },
-    "PilotCost": 0
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"BLACKLISTED",
+			"name_senakiY"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0
 }

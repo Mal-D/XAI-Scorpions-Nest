@@ -11,13 +11,13 @@
         "Details": "Garvey inherited his <i>Wasp</i> from his older brother and rotated through several companies. None found him acceptable. Leaving Garvey with very few options, the only company that would employ him were Wilson's Hussars.",
         "Icon": "guiTxrPort_rGarvey"
     },
-    "BaseGunnery": "4",
+    "BaseGunnery": "6",
 	"BonusGunnery": 0,
 	"BasePiloting": "4",
 	"BonusPiloting": 0,
 	"BaseGuts": "5",
 	"BonusGuts": 0,
-	"BaseTactics": "8",
+	"BaseTactics": "6",
 	"BonusTactics": 0,
 	"ExperienceUnspent": 0,
 	"ExperienceSpent": 0,
@@ -28,31 +28,27 @@
 	"Morale": 0,
 	"Voice": "f_overload01",
 	"abilityDefNames": [
+		"TraitDefRefireReduceTwo",
 		"TraitDefRefireReduceOne",
+		"TraitDefCalledShotImprove",
 		"TraitDefSprintIncrease05",
 		"TraitDefOverheatAddTen",
 		"TraitDefOverheatAddFive",
 		"TraitDefHealthAddOne",
 		"TraitDefUnsteadySet50",
-		"TraitDefIndirectReduceThree",
 		"TraitDefIndirectReduceTwo",
 		"TraitDefIndirectReduceOne",
 		"TraitDefMinRangeReduce45",
 		"TraitDefMinRangeReduce30",
 		"AbilityDefT5A",
-		"AbilityDefT8A",
 		"AbilityDefGu5"
     ],
     "AIPersonality": "Undefined",
     "PilotTags": {
         "items": [
-            "pilot_npc_brawler",
-            "pilot_npc_dynamic",
-            "pilot_npc_d5",
             "BLACKLISTED",
             "name_rGarvey"
-
-        ],
+		],
         "tagSetSourceFile": ""
     },
     "PilotCost": 0
