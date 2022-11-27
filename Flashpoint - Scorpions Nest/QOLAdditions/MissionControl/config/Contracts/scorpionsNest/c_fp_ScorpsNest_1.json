@@ -1,5 +1,5 @@
 {
-  "ID": "c_fp_ScorpsNest_2",
+  "ID": "c_fp_ScorpsNest_1",
   "RandomSpawns": {
     "Enable": true
   },
@@ -9,8 +9,8 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 1,
-    "EnemyLanceObjectiveNames": ["Destroy Hussar's Stragglers"],
-    "EnemyLances": ["DAMAGED_SCORPION_LANCE_50"],
+    "EnemyLanceObjectiveNames": ["Destroy Hussars rust Buckets"],
+    "EnemyLances": ["DAMAGED_SCORPION_LANCE_75"],
     "AllyLanceCount": 0,
     "AllyLances": []
   },
@@ -21,7 +21,7 @@
   },
   "ExtendedBoundaries": {
     "Enable": true,
-    "IncreaseBoundarySizeByPercentage": 1.0
+    "IncreaseBoundarySizeByPercentage": 0.5
   },
   "DynamicWithdraw": {
     "Enable": false

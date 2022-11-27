@@ -9,7 +9,7 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 1,
-    "EnemyLanceObjectiveNames": ["Destroy Hussar's Stragglers"],
+    "EnemyLanceObjectiveNames": ["Destroy Hussars Stragglers"],
     "EnemyLances": ["DAMAGED_SCORPION_LANCE_50"],
     "AllyLanceCount": 0,
     "AllyLances": []

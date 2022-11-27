@@ -2,6 +2,7 @@
 bin-debug/
 bin-release/
 **/__TestObjects
+**/QOLAdditions
 *.code-workspace
 __*.*
 

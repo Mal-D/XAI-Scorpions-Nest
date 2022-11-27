@@ -12,7 +12,7 @@
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
 	"shortDescription": "Surviving units of a {TEAM_TAR.FactionDef.Demonym} are making a stand in the city. If Helmar Valasek wants to spread his influence he is going to have to get past you first. You are tasked you with denying his ambitions, permanently. Don't fail us Commander.",
-	"longDescription": "Commander, Please don't add to the damage these pirates have caused the city. This is going to be hard enough to explain away as it is.",
+	"longDescription": "Commander {Commander.LastName}, Please don't add to the damage these pirates have caused the city. This is going to be hard enough to explain away as it is.",
 	"salvagePotential": 8,
 	"requirementList": [],
 	"OnContractSuccessResults": [],
@@ -144,7 +144,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Commander. Please look after Chu-i Yasatiaka. She has taken on a great burden attempting to expunge her brother's Cowardice.",
+					"words": "Commander {Commander.LastName}, please look after Chu-i Yasatiaka. She has taken on a great burden attempting to expunge her brother's cowardice.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -176,7 +176,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "Just follow the Commanders orders and we will get along famously.",
+					"words": "Just follow the Commander's orders and we will get along famously.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -249,7 +249,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Amazing work Commander. Well done.",
+					"words": "Amazing work Commander {Commander.LastName}. Well done.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -315,7 +315,7 @@
 			"overrideDialogueBucketId": "DialogBucketDef_Universal_HostilesInbound",
 			"dialogueContent": [
 				{
-					"words": "Ha and thought we didn'y know they were there. Commander! Keep it up!",
+					"words": "Ha and they thought we didn't know they were there! Keep it up!",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
