@@ -14,4 +14,4 @@ The name of your Commander was removed from the mission descriptions and in-miss
 Discovering the versatility of CWolf's Mission Control. 
 The contracts are populated using Mission control Additional Lances feature and the opposing forces now have custom Objective names for you to focus your fire upon.
 These actually don't reside in the Flashpoint but in their own folder in Mission Control. Drag the MissionControl folder in the QoL package into the /Mods folder directly and the folder structure in the QoL package will correctly place the updates in the 
-/Mods/MissionControl/config/Contracts/scorpionsNest folder.   
+/Mods/MissionControl/config/Contracts/scorpionsNest folder.
