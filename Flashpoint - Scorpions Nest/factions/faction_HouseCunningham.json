@@ -40,7 +40,7 @@
 	"DefaultRepresentativeCastDefId": "castDef_AlexandriaC",
 	"DataManager": null,
 	"factionID": "HouseCunningham",
-    "icon" : "uixTxrLogo_Cunningham",
+	"icon": "uixTxrLogo_Cunningham",
 	"heraldryDefId": "heraldrydef_cunningham",
 	"storePanelImage": null,
 	"factionStoreColor": null,

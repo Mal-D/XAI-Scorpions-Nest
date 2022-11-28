@@ -1,8 +1,8 @@
 {
-	"ID": "c_fp_ScorpsNest_3",
-	"contractName": "Scorpion's Nest Three",
+	"ID": "c_fp_ScorpsNest_2",
+	"contractName": "Scorpion's Nest Two",
 	"contractDisplayStyle": "BaseFlashpoint",
-	"difficulty": 5,
+	"difficulty": 4,
 	"difficultyUIModifier": 0,
 	"weight": 1,
 	"scope": "MID_CAMPAIGN",
@@ -11,8 +11,8 @@
 	"missionSuccessStatementOverride": null,
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "Local militia have managed to halt the incursion of these pirates. If the dome comes under attack then hundreds of thousands of Federation citizens will be in danger. We have some militia 'Mech units on standby. Join up with them and eliminate the threat.",
-	"longDescription": "Commander {Commander.LastName}, You need to clear these quickly to ensure the processing infrastructure is not put at further risk.",
+	"shortDescription": "Helmar Valasek is using Wilson's Hussars to spread his influence and setup shop here on Merope. {TEAM_EMP.FactionDef.Name} has tasked you with denying his ambitions, permanently. Destroy them Commander.",
+	"longDescription": "Commander {Commander.LastName}, this sandy hellhole will be the graveyard of all those who plan to plunder from the Federated Suns.",
 	"salvagePotential": 8,
 	"requirementList": [],
 	"OnContractSuccessResults": [],
@@ -32,9 +32,9 @@
 				{
 					"typeString": "System.Int32",
 					"name": "ScorpCount",
-					"value": "-4",
+					"value": "-2",
 					"set": false,
-					"valueConstant": "-4"
+					"valueConstant": "-2"
 				}
 			],
 			"Actions": [],
@@ -67,7 +67,7 @@
 				"EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
 			},
 			"title": "Destroy Enemy Units",
-			"description": "Find, engage and destroy them all.",
+			"description": "Find, engage and destroy these pirates.",
 			"isPrimary": true,
 			"forPlayer": "Player1",
 			"objectiveGuids": [
@@ -93,7 +93,7 @@
 			"objective": {
 				"EncounterObjectGuid": "0e2a07c1-e22a-47a7-a353-3e93ebcd7b47"
 			},
-			"title": "Destroy all Enemy Reinforcements",
+			"title": "Destroy all - None shall escape.",
 			"description": "",
 			"isPrimary": true,
 			"OnSuccessResults": [],
@@ -144,14 +144,14 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Thanks for the heavier 'Mechs Lady Cunningham.",
+					"words": "I am picking up quite a few heat signatures Commander {Commander.LastName}.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
 						"b": 1,
 						"a": 1
 					},
-					"selectedCastDefId": "castDef_DariusDefault",
+					"selectedCastDefId": "castDef_SumireDefault",
 					"emote": "Default",
 					"audioName": "NONE",
 					"cameraFocusGuid": "",
@@ -160,39 +160,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "Make sure they are put to good use Commander. ",
-					"wordsColor": {
-						"r": 1,
-						"g": 1,
-						"b": 1,
-						"a": 1
-					},
-					"selectedCastDefId": "castDef_AlexandriaC",
-					"emote": "Default",
-					"audioName": "NONE",
-					"cameraFocusGuid": "",
-					"cameraDistance": "Far",
-					"cameraHeight": "Default",
-					"revealRadius": -1
-				},
-				{
-					"words": "Speed people. Pick them apart and move to the next. We don't have a whole lot of time.",
-					"wordsColor": {
-						"r": 1,
-						"g": 1,
-						"b": 1,
-						"a": 1
-					},
-					"selectedCastDefId": "castDef_DariusDefault",
-					"emote": "Default",
-					"audioName": "NONE",
-					"cameraFocusGuid": "",
-					"cameraDistance": "Far",
-					"cameraHeight": "Default",
-					"revealRadius": -1
-				},
-				{
-					"words": "Good hunting, Commander. Olivera out.",
+					"words": "Advance and get eyes on them. We can only get patchy sensor readouts in this crap - heads on a swivel MechWarriors.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -214,42 +182,10 @@
 				"EncounterObjectGuid": "4011a4c3-cba2-4d22-b2b3-3b19a3297ab9"
 			},
 			"name": "Dialogue_MissionSuccess",
-			"overrideDialogueBucketId": "",
+			"overrideDialogueBucketId": "DiaBkt_SN_2_MissionSuccess",
 			"dialogueContent": [
 				{
-					"words": "Impressive, Commander {Commander.LastName}. You are earning your keep nicely.",
-					"wordsColor": {
-						"r": 1,
-						"g": 1,
-						"b": 1,
-						"a": 1
-					},
-					"selectedCastDefId": "castDef_AlexandriaC",
-					"emote": "Default",
-					"audioName": "NONE",
-					"cameraFocusGuid": "",
-					"cameraDistance": "Far",
-					"cameraHeight": "Default",
-					"revealRadius": -1
-				},
-				{
-					"words": "Just make sure the payment is commensurate with the effort being supplied to clear your 'little embarrassment'.",
-					"wordsColor": {
-						"r": 1,
-						"g": 1,
-						"b": 1,
-						"a": 1
-					},
-					"selectedCastDefId": "castDef_DariusDefault",
-					"emote": "Default",
-					"audioName": "NONE",
-					"cameraFocusGuid": "",
-					"cameraDistance": "Far",
-					"cameraHeight": "Default",
-					"revealRadius": -1
-				},
-				{
-					"words": "harrummmffff... Point taken Mr. Olivera.",
+					"words": "PLACEHOLDR: That's all of them, Commander.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -271,17 +207,17 @@
 				"EncounterObjectGuid": "d3d33d95-9ed7-4686-b9eb-954ebe51cc02"
 			},
 			"name": "Dialogue_MissionFailure",
-			"overrideDialogueBucketId": "",
+			"overrideDialogueBucketId": "DiaBkt_SN_2_MissionFailure",
 			"dialogueContent": [
 				{
-					"words": "That's enough; I'm pulling the plug on this operation, Commander.",
+					"words": "PLACEHOLDR: Alas my friend, being this close to the boarder all the first line units are garrisoned to protect our interests.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
 						"b": 1,
 						"a": 1
 					},
-					"selectedCastDefId": "castDef_DariusDefault",
+					"selectedCastDefId": "castDef_AlexandriaC",
 					"emote": "Default",
 					"audioName": "NONE",
 					"cameraFocusGuid": "",
@@ -299,7 +235,7 @@
 			"overrideDialogueBucketId": "DialogBucketDef_Universal_HostilesInbound",
 			"dialogueContent": [
 				{
-					"words": "A primary target is damaged, Commander! Keep it up!",
+					"words": "Good show, Commander! Keep it up!",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -329,8 +265,8 @@
 	"useTravelCostPenalty": false,
 	"usesExpiration": false,
 	"expirationTimeOverride": -1,
-	"negotiatedSalary": 1,
-	"negotiatedSalvage": 0,
+	"negotiatedSalary": 0,
+	"negotiatedSalvage": 1,
 	"excludedFromProceduralGeneration": true,
 	"player1Team": {
 		"encounterLayerData": {
@@ -371,7 +307,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_wolfhound_WLF-1",
+						"unitDefId": "mechdef_jenner_JR7-D",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -404,7 +340,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_valkyrie_VLK-QL",
+						"unitDefId": "mechdef_firestarter_FS9-K",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -437,7 +373,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_quickdraw_QKD-4H",
+						"unitDefId": "mechdef_jenner_JR7-F",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -470,7 +406,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_quickdraw_QKD-4G",
+						"unitDefId": "mechdef_enforcer_ENF-4R",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -544,7 +480,9 @@
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
-					"items": [],
+					"items": [
+						"spawn_poorly_maintained_50"
+					],
 					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 2,
@@ -559,7 +497,7 @@
 						"customUnitName": "Vandal 1",
 						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SCORPION_LRM-SN",
+						"unitDefId": "vehicledef_SCORPION",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -570,11 +508,11 @@
 						},
 						"spawnEffectTags": {
 							"items": [
-								"spawn_poorly_maintained_50"
+								"spawn_poorly_maintained_75"
 							],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
-						"pilotDefId": "pilot_d5_tactician",
+						"pilotDefId": "pilot_d5_gunner",
 						"pilotTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/PilotTags"
@@ -594,7 +532,7 @@
 						"customUnitName": "Vandal 2",
 						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SCORPION_LRM-SN",
+						"unitDefId": "vehicledef_SCORPION",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -605,11 +543,11 @@
 						},
 						"spawnEffectTags": {
 							"items": [
-								"spawn_poorly_maintained_25"
+								"spawn_poorly_maintained_50"
 							],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
-						"pilotDefId": "pilot_d5_tactician",
+						"pilotDefId": "pilot_d5_gunner",
 						"pilotTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/PilotTags"
@@ -629,7 +567,7 @@
 						"customUnitName": "Vandal 3",
 						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SCORPION_MKII",
+						"unitDefId": "vehicledef_SCORPION_ML",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -644,7 +582,7 @@
 							],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
-						"pilotDefId": "pilot_d5_gunner",
+						"pilotDefId": "pilot_d5_tactician",
 						"pilotTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/PilotTags"
@@ -661,10 +599,10 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "f46b3021-803a-41ed-87e0-1b8cb86663b8"
 						},
-						"customUnitName": "Vandal 4",
-						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
-						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SCORPION",
+						"customUnitName": "",
+						"customHeraldryDefId": "",
+						"unitType": "",
+						"unitDefId": "",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -675,11 +613,11 @@
 						},
 						"spawnEffectTags": {
 							"items": [
-								"spawn_poorly_maintained_50"
+								""
 							],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
-						"pilotDefId": "pilot_d5_gunner",
+						"pilotDefId": "",
 						"pilotTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/PilotTags"
@@ -721,45 +659,10 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
 						},
-						"customUnitName": "Vandal 5",
+						"customUnitName": "Vandal 4",
 						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SCORPION_MKII",
-						"unitTagSet": {
-							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
-						},
-						"unitExcludedTagSet": {
-							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
-						},
-						"spawnEffectTags": {
-							"items": [
-								"spawn_poorly_maintained_50"
-							],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
-						},
-						"pilotDefId": "pilot_d5_gunner",
-						"pilotTagSet": {
-							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
-						},
-						"pilotExcludedTagSet": {
-							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
-						},
-						"selectedUnitType": "UNDEFINED",
-						"selectedUnitDefId": null,
-						"selectedPilotDefId": null
-					},
-					{
-						"unitSpawnPoint": {
-							"EncounterObjectGuid": "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
-						},
-						"customUnitName": "Vandal 6",
-						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
-						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SCORPION_LRM-SN",
+						"unitDefId": "vehicledef_SCORPION_ML",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -789,9 +692,44 @@
 					},
 					{
 						"unitSpawnPoint": {
+							"EncounterObjectGuid": "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
+						},
+						"customUnitName": "Vandal 5",
+						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
+						"unitType": "Vehicle",
+						"unitDefId": "vehicledef_SCORPION",
+						"unitTagSet": {
+							"items": [],
+							"tagSetSourceFile": "tags/UnitTags"
+						},
+						"unitExcludedTagSet": {
+							"items": [],
+							"tagSetSourceFile": "tags/UnitTags"
+						},
+						"spawnEffectTags": {
+							"items": [
+								"spawn_poorly_maintained_50"
+							],
+							"tagSetSourceFile": "tags/SpawnEffectTags"
+						},
+						"pilotDefId": "pilot_d5_gunner",
+						"pilotTagSet": {
+							"items": [],
+							"tagSetSourceFile": "tags/PilotTags"
+						},
+						"pilotExcludedTagSet": {
+							"items": [],
+							"tagSetSourceFile": "tags/PilotTags"
+						},
+						"selectedUnitType": "UNDEFINED",
+						"selectedUnitDefId": null,
+						"selectedPilotDefId": null
+					},
+					{
+						"unitSpawnPoint": {
 							"EncounterObjectGuid": "5a7f08f5-3ceb-467e-b857-b3fc1874d016"
 						},
-						"customUnitName": "Vandal 7",
+						"customUnitName": "Vandal 6",
 						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
 						"unitType": "Vehicle",
 						"unitDefId": "vehicledef_SCORPION",
@@ -809,7 +747,7 @@
 							],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
-						"pilotDefId": "pilot_d5_gunner",
+						"pilotDefId": "pilot_d5_tactician",
 						"pilotTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/PilotTags"
@@ -826,10 +764,10 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "938ab06b-304b-4f45-ba86-abcaa0fe01c5"
 						},
-						"customUnitName": "Vandal 8",
-						"customHeraldryDefId": "heraldrydef_wilsonsHussars",
-						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_SCORPION_LRM-SN",
+						"customUnitName": "",
+						"customHeraldryDefId": "",
+						"unitType": "",
+						"unitDefId": "",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -840,11 +778,11 @@
 						},
 						"spawnEffectTags": {
 							"items": [
-								"spawn_poorly_maintained_50"
+								""
 							],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
-						"pilotDefId": "pilot_d5_tactician",
+						"pilotDefId": "",
 						"pilotTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/PilotTags"

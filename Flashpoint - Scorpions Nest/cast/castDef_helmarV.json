@@ -1,23 +1,21 @@
 {
-    "id" : "castDef_helmarV",
-    "internalName" : "helmarV",
-    "firstName" : "Helmar",
-    "lastName" : "Valasek",
-    "callsign" : "Boss",
-    "rank" : "Captain",
-    "gender" : "Male",
-    "faction" : "",
-    "sgCharType" : "UNSET",
-    "showRank" : true,
-    "showFirstName" : true,
-    "showCallsign" : true,
-    "showLastName" : true,
-    "localizeName" : false,
-    "defaultEmotePortrait" : {
-        "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_helmarV.png"
-    },
-    "emotePotraitList" : [
-        
-    ]
+	"id": "castDef_helmarV",
+	"internalName": "helmarV",
+	"firstName": "Helmar",
+	"lastName": "Valasek",
+	"callsign": "Boss",
+	"rank": "Captain",
+	"gender": "Male",
+	"faction": "",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": true,
+	"showLastName": true,
+	"localizeName": false,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_helmarV.png"
+	},
+	"emotePotraitList": []
 }

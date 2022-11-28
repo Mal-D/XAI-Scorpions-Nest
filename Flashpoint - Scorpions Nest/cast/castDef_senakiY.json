@@ -1,23 +1,21 @@
 {
-    "id" : "castDef_senakiY",
-    "internalName" : "senakiY",
-    "firstName" : "Senaki(Sue)",
-    "lastName" : "Yasatiaka",
-    "callsign" : "Fang",
-    "rank" : "Chu-i",
-    "gender" : "Female",
-    "faction" : "Davion",
-    "sgCharType" : "UNSET",
-    "showRank" : true,
-    "showFirstName" : true,
-    "showCallsign" : true,
-    "showLastName" : true,
-    "localizeName" : false,
-    "defaultEmotePortrait" : {
-        "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_senakiY.png"
-    },
-    "emotePotraitList" : [
-        
-    ]
+	"id": "castDef_senakiY",
+	"internalName": "senakiY",
+	"firstName": "Senaki(Sue)",
+	"lastName": "Yasatiaka",
+	"callsign": "Fang",
+	"rank": "Chu-i",
+	"gender": "Female",
+	"faction": "Davion",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": true,
+	"showLastName": true,
+	"localizeName": false,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_senakiY.png"
+	},
+	"emotePotraitList": []
 }

@@ -9,6 +9,7 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 1,
+    "EnemyLanceObjectiveNames": ["Destroy Hussar's rust Buckets"],
     "EnemyLances": ["DAMAGED_SCORPION_LANCE_75"],
     "AllyLanceCount": 0,
     "AllyLances": []

@@ -1,7 +1,7 @@
 {
     "Name": "FlashPoint_ScorpionsNest",
     "Enabled": true,	
-    "Version": "1.2.3-XAI-PreRelease",
+    "Version": "1.2.6-XAI-PreRelease",
     "Author": "MalD",
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],
 	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
@@ -10,9 +10,7 @@
     "Manifest": [
 		{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
 		{ "Type": "SimGameStatDescDef", "Path": "simGameStatDesc", "AddToDB": true },	
-		{ "Type": "VehicleDef", "Path": "newVehicle", "AddToDB": true },
-		{ "Type": "TurretDef", "Path": "Turret" },
-        { "Type": "TurretChassisDef", "Path": "TurretChassis" },	
+		{ "Type": "VehicleDef", "Path": "newVehicle", "AddToDB": true },	
 		{ "Type": "CastDef", "Path": "cast", "AddToDB": true },
 		{ "Type": "LanceDef" , "Path": "lances", "AddToDB": true },	
 		{ "Type": "ContractOverride", "Path": "contracts" },

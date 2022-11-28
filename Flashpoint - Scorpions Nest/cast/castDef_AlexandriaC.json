@@ -1,23 +1,21 @@
 {
-    "id" : "castDef_AlexandriaC",
-    "internalName" : "AlexandriaC",
-    "firstName" : "Alexandria",
-    "lastName" : "Cunningham",
-    "callsign" : "",
-    "rank" : "Lady",
-    "gender" : "Female",
-    "faction" : "",
-    "sgCharType" : "UNSET",
-    "showRank" : true,
-    "showFirstName" : true,
-    "showCallsign" : false,
-    "showLastName" : true,
-    "localizeName" : false,
-    "defaultEmotePortrait" : {
-        "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_DavionRep.png"
-    },
-    "emotePotraitList" : [
-        
-    ]
+	"id": "castDef_AlexandriaC",
+	"internalName": "AlexandriaC",
+	"firstName": "Alexandria",
+	"lastName": "Cunningham",
+	"callsign": "",
+	"rank": "Lady",
+	"gender": "Female",
+	"faction": "",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"localizeName": false,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/XAI Flashpoints/Flashpoint - Scorpions Nest/sprites/Portraits/guiTxrPort_DavionRep.png"
+	},
+	"emotePotraitList": []
 }

@@ -1,52 +1,50 @@
 {
-    "ID" : "faction_wilsonsHussars",
-    "Name" : "Wilson's Hussars",
-    "ShortName" : "Wilsons's Hussars",
-    "Description" : "By 3021 Wilson's Hussars had officially gone rogue and in the employ of the Bandit King Redjack Ryan. However, after a disastrous defeat, the Hussars terminated employment with Ryan and took up with Helmar Valasek, Bandit King of Santander V.",
-    "Demonym" : "Hussars",
-    "Government" : "",
-    "Allies" :  [
-        
-                ],
-    "Enemies" : [
+	"ID": "faction_wilsonsHussars",
+	"Name": "Wilson's Hussars",
+	"ShortName": "Wilsons's Hussars",
+	"Description": "By 3021 Wilson's Hussars had officially gone rogue and in the employ of the Bandit King Redjack Ryan. However, after a disastrous defeat, the Hussars terminated employment with Ryan and took up with Helmar Valasek, Bandit King of Santander V.",
+	"Demonym": "Hussars",
+	"Government": "",
+	"Allies": [],
+	"Enemies": [
 		"AuriganPirates",
-        "Liao",
+		"Liao",
 		"Davion",
 		"Steiner",
 		"Marik",
 		"Kurita",
-        "AuriganRestoration",
-        "AuriganDirectorate"
-    ],
+		"AuriganRestoration",
+		"AuriganDirectorate"
+	],
 	"Presence": 0.1,
-    "ReputationStatements" : [
-        ""
-    ],
-    "MissionSuccessStatements" : [ 
+	"ReputationStatements": [
 		""
-    ], 
-	"GoodFaithFailureStatements" : [ 
+	],
+	"MissionSuccessStatements": [
 		""
-    ],
-	"BadFaithFailureStatements" : [ 
+	],
+	"GoodFaithFailureStatements": [
 		""
-    ],
-	"DefaultCombatLeaderCastDefId" : "castDef_davidW",
-    "DefaultRepresentativeCastDefId" : "castDef_davidW",
-    "DataManager" : null,
-    "factionID" : "wilsonsHussars",
-  	"icon" : "uixTxrIcon_wilsonsHussars",
-    "heraldryDefId" : "heraldrydef_wilsonsHussars",
-    "storePanelImage" : null,
-    "factionStoreColor" : null,
-    "StartingReputationValues" : [
-        -15,
-        -15,
-        0
-    ],
-    "StartingReputationModes" : [
-        "KAMEA_CAMPAIGN",
-        "CAREER",
-        "NONE"
-    ]
+	],
+	"BadFaithFailureStatements": [
+		""
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_davidW",
+	"DefaultRepresentativeCastDefId": "castDef_davidW",
+	"DataManager": null,
+	"factionID": "wilsonsHussars",
+	"icon": "uixTxrIcon_wilsonsHussars",
+	"heraldryDefId": "heraldrydef_wilsonsHussars",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"StartingReputationValues": [
+		-15,
+		-15,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
 }

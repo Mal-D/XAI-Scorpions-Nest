@@ -1,18 +1,18 @@
 {
-    "Description" : {
-        "Cost" : 0,
-        "Rarity" : 1,
-        "Purchasable" : false,
-        "Manufacturer" : "null",
-        "Model" : "null",
-        "UIName" : "null",
-        "Id" : "heraldrydef_cunningham",
-        "Name" : "House Cunningham",
-        "Details" : "This family made its fortunes centuries ago by becoming the owners of the largest agricultural producers on the planet Kestrel. The Cunninghams have been staunch supporters of the Federated Suns and the ruling Davion family from the beginning.",    
-        "Icon" : ""
-    },
-    "textureLogoID" : "uixTxrIcon_Cunningham",
-    "primaryMechColorID" : "Metallic_Red",
-    "secondaryMechColorID" : "Metallic_Silver",
-    "tertiaryMechColorID" : "Metallic_Gold"
+	"Description": {
+		"Cost": 0,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "null",
+		"Model": "null",
+		"UIName": "null",
+		"Id": "heraldrydef_cunningham",
+		"Name": "House Cunningham",
+		"Details": "This family made its fortunes centuries ago by becoming the owners of the largest agricultural producers on the planet Kestrel. The Cunninghams have been staunch supporters of the Federated Suns and the ruling Davion family from the beginning.",
+		"Icon": ""
+	},
+	"textureLogoID": "uixTxrIcon_Cunningham",
+	"primaryMechColorID": "Metallic_Red",
+	"secondaryMechColorID": "Metallic_Silver",
+	"tertiaryMechColorID": "Metallic_Gold"
 }

@@ -1,6 +1,5 @@
 itemCollection_loot_ScorpsNest_3,,Battlefield Salvage,This cache contains a few more bits'n'bobs
-Weapon_Autocannon_AC5_0-GMWhirlwind,Weapon,2,1
-Weapon_SRM_SRM6_1-Irian,Weapon,2,1
-Weapon_SRM_SSRM6_0-STOCK,Weapon,2,1
-Weapon_Laser_MediumLaser_0-Aberdovey,Weapon,2,1
-itemCollection_table_AdditionalLoot_uncommon,Reference,2,1
+Weapon_Autocannon_AC5_2-Kali_Yama,Weapon,2,1
+Weapon_SRM_SRM4_3_Wunderland,Weapon,2,1
+Weapon_MachineGun_MachineGun_1-Ratheon-AMS,Weapon,2,1
+itemCollection_faction_Davion,Reference,4,1
