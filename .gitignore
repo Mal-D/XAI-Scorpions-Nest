@@ -1,6 +1,7 @@
 # Build and Release Folders
 bin-debug/
 bin-release/
+**/1.2.6/*.*
 **/__TestObjects
 **/QOLAdditions
 *.code-workspace
