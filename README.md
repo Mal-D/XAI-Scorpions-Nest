@@ -1,6 +1,33 @@
 # Scorpions Nest
 Scorpion's Nest 
 
+### Version SN-1.2.7-XAI-Patch
+
+This is a slight adjustment of the display of the Flashpoint. The 1.2.6 release of Scorpion's Nest had the Flashpoint exist as active for eternity until played. This prevents other Flashpoints from spawning until Scorpion's Nest has actually been played. This patch has two adjustments. 
+
+Thanks to Xeryx for providing the framework in which to showcase this version of BattleTech and for his guidance in making sure we stay true to the XAI vision. And as always, a huge callout to CWolf through who's guidance pointed the way to correct this condition.
+
+1.   ColourfulFlashpoints Mod setting that prevents the Flashpoint Expiry function from working properly. The Flashpoint lower Banner will now show banner text of
+
+    "FLASHPOINT : EXPIRES IN (XX) Days"
+after which if the player has not started the Flashpoint by then, the Flashpoint will terminiate and become unavailble.
+
+2.  The correction of the Flashpoint expiry being set to 180 days - cos we want you to play the Flashpoint.
+
+# Installation of Patch 
+
+1.  For Players using ModTech 2.0.0 or greater
+
+Extract the two folders in the archive into /Mods directory and the contained folder structure will place the files in the correct location
+
+2.  For players using ModTech up to 0.8.0
+
+Extract the folders in the Archive into the same folders in /Mods Directory and the content will be placed into the correct folders.
+
+This will NOT break your Saved games. 
+
+-----  END of SN-1.2.7-XAI-Patch Patch Notes
+
 Huge Mentions and many thanks to @Xeryx for the invitation to convert one of my favourite Flashpoints to his XAI Battletech 3025. Without his constant foot on the pedal and fastidious eye for detail, would not have turned out as well as it has or as timely.
 
 Many thanks to @CWolf for his amazing tools that add so much life to the game.
