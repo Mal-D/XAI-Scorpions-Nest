@@ -1,9 +1,9 @@
 {
     "Name": "FlashPoint_ScorpionsNest",
     "Enabled": true,	
-    "Version": "SN-1.2.7-XAI-Patch",
+    "Version": "SN-1.3.0-ALIGN",
     "Author": "MalD",
-	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],
+	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ,"Mission Control" ],
 	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
     "ConflictsWith": [],
 	"DataAddendumEntries":[ { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }	],
