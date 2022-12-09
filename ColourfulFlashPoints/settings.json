@@ -1,9 +1,9 @@
 {
-   "debug" : true,
-   "enableSettingsHotReload ": true,
-   "markers" : [
+	"debug": false,
+	"enableSettingsHotReload ": false,
+	"markers": [
 		{
-			"useHmAnimation": true,
+			"useHmAnimation": false,
 			"flashpointPrefix": "fp_ScorpsNest",
 			"swapColour": true,
 			"keepAlpha": true,
@@ -11,7 +11,7 @@
 			"autoDetectContracts": true,
 			"useContractColourOverride": true,
 			"innerCircle": {
-				"Colour": "#5f9ea0"
+				"Colour": "#EDC738"
 			},
 			"innerHmPulsing": {
 				"Colour": "#c9ffe5"
@@ -20,13 +20,13 @@
 				"Colour": "#8bbe1b"
 			},
 			"outerPulsing": {
-				"Colour": "#8bbe1b"
+				"Colour": "#EDC738"
 			},
 			"outerPulsingFill": {
-				"Colour": "#dfff00"
+				"Colour": "#EDC738"
 			},
 			"contractColour": {
-				"Colour": "#485F03",
+				"Colour": "#8b951b",
 				"Alpha": 0.35
 			},
 			"contractIds": []
@@ -91,28 +91,16 @@
 				"Alpha": 0.35
 			},
 			"contractIds": []
+		}		
+	],
+	"contractMarkers": [
+		{
+			"type": "ContractType",
+			"contractIds": [],
+			"colour": {
+				"Colour": "",
+				"Alpha": 0
+			}
 		}
-   ],
-   "contractMarkers":
-   //Use this to colour the Contract types
-   [
-      //{
-      //     "type" : "ContractType",
-      //     "contractIds" : ["c_fp_ODS2_TheInterview_T"],
-      //     "colour": 
-      //     {
-      //         "Colour": "#0B8E12",
-      //         "Alpha" : 0.44 
-      //     }
-      // },
-      {
-        "type" : "ContractType",
-        "contractIds" : ["Assassination"],
-        "colour": 
-        {
-            "Colour": "#300B8E",
-            "Alpha" : 0.34 
-        }
-    }
-   ]
+	]
 }
