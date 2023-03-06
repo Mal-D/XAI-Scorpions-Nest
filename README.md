@@ -1,5 +1,10 @@
 # Scorpions Nest
 Scorpion's Nest 
+### Version SN-1.3.1-XAI-Release
+Added the Commander.LastName interpolation 
+NOTE
+Make sure Mission Control is updated.
+
 
 ### Version SN-1.2.7-XAI-Patch
 
