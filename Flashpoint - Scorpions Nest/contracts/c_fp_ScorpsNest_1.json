@@ -485,7 +485,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_wolfhound_WLF-1A",
+						"unitDefId": "mechdef_wolfhound_WLF-1",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"

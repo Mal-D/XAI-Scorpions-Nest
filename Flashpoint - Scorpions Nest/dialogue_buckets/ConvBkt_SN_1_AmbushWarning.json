@@ -2,7 +2,7 @@
 	"identifier": "ConvBkt_SN_1_AmbushWarning",
 	"contents": [
 		{
-			"words": "Watch out Commander {Commander.LastName}, There seems to be a few more than anticipated.",
+			"words": "Watch out Commander, There seems to be a few more than anticipated.",
 			"wordsColor": {
 				"r": 1,
 				"g": 1,
@@ -18,7 +18,7 @@
 			"revealRadius": -1
 		},
 		{
-			"words": "Our sensors confirm Commander {Commander.LastName}. More of the same.",
+			"words": "Our sensors confirm Commander. More of the same.",
 			"wordsColor": {
 				"r": 1,
 				"g": 1,

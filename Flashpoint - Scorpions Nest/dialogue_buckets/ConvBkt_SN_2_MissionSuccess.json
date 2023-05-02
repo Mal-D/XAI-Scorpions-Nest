@@ -2,7 +2,7 @@
 	"identifier": "ConvBkt_SN_2_MissionSuccess",
 	"contents": [
 		{
-			"words": "That's all of them, Commander {Commander.LastName}. Well done. I was skeptical at first but, you have proved your worth.",
+			"words": "That's all of them, Commander. Well done. I was skeptical at first but, you have proved your worth.",
 			"wordsColor": {
 				"r": 1,
 				"g": 1,

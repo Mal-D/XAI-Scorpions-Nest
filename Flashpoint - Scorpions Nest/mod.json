@@ -1,13 +1,9 @@
 {
     "Name": "FlashPoint_ScorpionsNest",
     "Enabled": true,	
-    "Version": "SN-1.3.1-XAI-Release",
+    "Version": "SN-1.3.3-XAI-Release",
 	
-	//Added the Commander.LastName interpolation 
-	//NOTE
-	// Make sure Mission Control is updated.
-
-    "Author": "MalD",
+    "Author": "Mal.D",
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ,"Mission Control" ],
 	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
     "ConflictsWith": [],

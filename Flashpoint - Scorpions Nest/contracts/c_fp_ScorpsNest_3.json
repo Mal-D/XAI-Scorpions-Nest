@@ -12,7 +12,7 @@
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
 	"shortDescription": "Local militia have managed to halt the incursion of these pirates. If the dome comes under attack then hundreds of thousands of Federation citizens will be in danger. We have some militia 'Mech units on standby. Join up with them and eliminate the threat.",
-	"longDescription": "Commander {Commander.LastName}, You need to clear these quickly to ensure the processing infrastructure is not put at further risk.",
+	"longDescription": "Commander, You need to clear these quickly to ensure the processing infrastructure is not put at further risk.",
 	"salvagePotential": 8,
 	"requirementList": [],
 	"OnContractSuccessResults": [],
@@ -371,7 +371,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_wolfhound_WLF-1",
+						"unitDefId": "mechdef_valkyrie_VLK-QL",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -404,7 +404,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_valkyrie_VLK-QL",
+						"unitDefId": "mechdef_trebuchet_TBT-5J",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -470,7 +470,7 @@
 						"customUnitName": null,
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
-						"unitDefId": "mechdef_quickdraw_QKD-4G",
+						"unitDefId": "mechdef_ostsol_OTL-4D",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"

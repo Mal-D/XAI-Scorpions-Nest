@@ -43,7 +43,7 @@
 		},
 		{
 			"unitType": "Mech",
-			"unitId": "mechdef_wolfhound_WLF-1A",
+			"unitId": "mechdef_wolfhound_WLF-1",
 			"pilotId": "pilot_d5_gunner",
 			"unitTagSet": null,
 			"excludedUnitTagSet": null,

@@ -1,5 +1,11 @@
 # Scorpions Nest
 Scorpion's Nest 
+### Version SN-1.3.3-XAI-Release
+Mission Control yet to be updated by cWolf for the time being Commander.LastName interpolation from in mission dialoguebuckets (the ones that slide out fromthe lefthand side of the screen during battle.) have been removed.
+1.  Two Contracts rebalanced.
+2.  Ally Additional Lances rebalanced.
+3.  Conversation adjusted to reflect the above changes.
+
 ### Version SN-1.3.1-XAI-Release
 Added the Commander.LastName interpolation 
 NOTE
