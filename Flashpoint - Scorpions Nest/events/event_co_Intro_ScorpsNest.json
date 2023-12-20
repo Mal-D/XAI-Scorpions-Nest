@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "event_co_Intro_ScorpsNest",
 		"Name": "The Scorpion's Nest.",
-		"Details": "A Tactical Tank Battle. As Access to the Galaxy is expanding so are the opportunities to travel, go to wonderful and exotic places and melt metal. The Flashpoint 'Scorpion's Nest' was inspired by the recent unearthing of a cache of late 20th century Terran publications.\r\n\r\n Welcome to: \r\n\r\n\"<b>The Scorpions Nest</b>\"",
+		"Details": "A Tactical Tank Battle. As access to the Galaxy is expanding so are the opportunities to travel, go to wonderful and exotic places and melt metal. The Flashpoint 'Scorpion's Nest' was inspired by the recent unearthing of a cache of late 20th century Terran publications.\r\n\r\n Welcome to: \r\n\r\n\"<b>The Scorpions Nest</b>\"",
 		"Icon": "uixTxrSpot_ScorpionsNest.png"
 	},
 	"Scope": "Company",
@@ -136,7 +136,8 @@
 								"items": [],
 								"tagSetSourceFile": ""
 							},
-							"Stats": null,
+							"Stats": 
+							[],
 							"Actions": [
 								{
 									"Type": "System_ForceDropshipRoom",
@@ -151,8 +152,8 @@
 								{
 									"Scope": "Company",
 									"EventID": "fe_event_Load_ScorpsNest",
-									"MinDaysWait": 30,
-									"MaxDaysWait": 30,
+									"MinDaysWait": 60,
+									"MaxDaysWait": 90,
 									"Probability": 100,
 									"RetainPilot": false
 								}

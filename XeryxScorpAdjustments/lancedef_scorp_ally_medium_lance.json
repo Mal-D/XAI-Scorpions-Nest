@@ -1,0 +1,54 @@
+{
+	"Description": {
+		"Id": "lancedef_scorp_ally_medium_lance",
+		"Name": "Ally Medium Lance",
+		"Details": "",
+		"Icon": "",
+		"Cost": 13980000,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Difficulty": 6,
+	"LanceTags": {
+		"items": [],
+		"tagSetSourceFile": "Tags/LanceTags"
+	},
+	"LanceUnits": [
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_kintaro_KTO-19",
+			"pilotId": "pilot_d5_tactician",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_firestarter_FS9-HW",
+			"pilotId": "pilot_d5_gunner",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_cicada_CDA-3C",
+			"pilotId": "pilot_d5_pilot",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "mechdef_wolfhound_WLF-1",
+			"pilotId": "pilot_d5_gunner",
+			"unitTagSet": null,
+			"excludedUnitTagSet": null,
+			"pilotTagSet": null,
+			"excludedPilotTagSet": null
+		}
+	]
+}
