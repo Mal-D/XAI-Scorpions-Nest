@@ -10,7 +10,7 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"items": [],
+			"items": ["map_travel_3"],
 			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
@@ -19,7 +19,7 @@
 				"fp_Scorp_cancel",
 				"fp_Scorp_intro_cancel",
 				"fe_event_Load_ScorpsNest_cancel"
-			],
+					],
 			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": [

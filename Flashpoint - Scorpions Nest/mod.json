@@ -1,7 +1,7 @@
 {
     "Name": "FlashPoint_ScorpionsNest",
     "Enabled": true,	
-    "Version": "SN-1.3.3a-XAI-Release",
+    "Version": "SN-1.3.3b-XAI-Release",
 	
     "Author": "Mal.D",
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ,"Mission Control" ],
