@@ -1,5 +1,10 @@
 # Scorpions Nest
 Scorpion's Nest 
+### Version SN-1.3.4a-XAI-Release
+Earlier versions of XAI has an updated Mission Control to correct the below Commander.LastName interpolation error.
+This update has increased the News article 'nag' time to 60-90(random) days.
+
+
 ### Version SN-1.3.3-XAI-Release
 Mission Control yet to be updated by cWolf for the time being Commander.LastName interpolation from in mission dialoguebuckets (the ones that slide out fromthe lefthand side of the screen during battle.) have been removed.
 1.  Two Contracts rebalanced.
